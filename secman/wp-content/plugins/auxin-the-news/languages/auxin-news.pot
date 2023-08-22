@@ -1,0 +1,2521 @@
+# Averta Copyright (c) {2023}
+msgid ""
+msgstr ""
+"Project-Id-Version: Phlox News 1.6.5\n"
+"Report-Msgid-Bugs-To: http://averta.net/phlox/wordpress-theme/\n"
+"POT-Creation-Date: 2023-02-22 10:10:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Averta <info@averta.net>\n"
+"Language-Team: Averta <info@averta.net>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_x:1,2c;_nx:4c,1,2;_nx_"
+"noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_"
+"html_e;esc_attr_ex:1,2c;esc_html_x\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/includes/compatibility/wpml/translate.php:16
+#: includes/elements/elementor/widgets/recent-news.php:246
+msgid "Widget Title"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-news-options.php:17
+#: includes/general-hooks.php:29
+msgid "News Setting"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-news-options.php:21
+#: includes/elements/elementor/widgets/recent-news-grid.php:558
+#: includes/elements/elementor/widgets/recent-news.php:511
+#: includes/elements/recent-news-grid.php:448 includes/general-hooks.php:2335
+msgid "Author Name"
+msgstr ""
+
+#: auxin-the-news.php:54
+msgid "Phlox Core Elements"
+msgstr ""
+
+#: auxin-the-news.php:65
+msgid "Phlox Pro"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Phlox News"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:74
+msgid "%s plugin has been disabled automatically due to following reason:"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:97
+msgid "Note for admin"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:229
+msgid ""
+"%s plugin is required in order to use this plugin. Please install and "
+"activate the plugin."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:230
+#: includes/classes/class-auxin-plugin-requirements.php:331
+#: includes/classes/class-auxin-plugin-requirements.php:356
+msgid "How to upgrade"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:250
+msgid ""
+"The plugin requires %s plugin version %s or higher (current version is %s). "
+"Please update it to the latest version."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:330
+msgid ""
+"%s theme requires %s plugin version %s or higher in order to function "
+"property. Your current plugin version is %s, please update it to latest "
+"version."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:355
+msgid ""
+"The plugin requires %s theme version %s or higher in order to function "
+"property. Your current theme version is %s, please %s update to latest "
+"version %s."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:367
+msgid "%s path while checking the availability of theme not found."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:372
+msgid "%s function callback while checking the availability of theme not found."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:409
+msgid ""
+"PHP version %s or above is required for this plugin while your the current "
+"PHP version is %s."
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:50
+#: includes/general-hooks.php:28
+msgid "News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:52
+msgid "Add News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:53
+msgid "All News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:54
+msgid "Add New News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:55
+msgid "Edit News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:56
+msgid "New News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:57
+msgid "View News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:58
+msgid "Search News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:59
+msgid "Parent News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:60
+msgid "No News found"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:61
+msgid "No News found in Trash"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:66
+msgid "Here you can add news to your website."
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:100
+#: includes/classes/class-auxin-post-type-news.php:119
+msgid "News Categories"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:101
+msgid "News Category"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:102
+msgid "All News Categories"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:103
+msgid "Parent News Category"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:104
+msgid "Parent News Category:"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:105
+msgid "Edit News Category"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:106
+msgid "Update News Category"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:107
+msgid "Add New News Category"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:108
+msgid "New News Category"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:109
+msgid "Search in News Categories"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:143
+#: includes/classes/class-auxin-post-type-news.php:167
+msgid "News Tags"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:144
+msgid "News Tag"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:145
+msgid "Search in News Tags"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:146
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:147
+msgid "All News Tags"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:148
+msgid "Parent News Tag"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:149
+msgid "Parent News Tag:"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:150
+msgid "Edit News Tag"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:151
+msgid "Update News Tag"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:152
+msgid "Add new News Tag"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:153
+msgid "New News Tag"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:155
+msgid "Separate \"Tag\" with commas"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:156
+msgid "Add or remove Tag"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:157
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:216
+#: includes/elements/recent-news.php:464
+msgid "Tags"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:217
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:348
+#: includes/elements/elementor/widgets/recent-news-grid.php:657
+#: includes/elements/elementor/widgets/recent-news.php:652
+#: includes/elements/recent-news-big-grid.php:113
+#: includes/elements/recent-news-big-grid.php:198
+#: includes/elements/recent-news-grid.php:169
+#: includes/elements/recent-news.php:105
+msgid "Date"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:218
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:355
+#: includes/elements/elementor/widgets/recent-news-grid.php:664
+#: includes/elements/elementor/widgets/recent-news.php:659
+#: includes/elements/recent-news-big-grid.php:120
+#: includes/elements/recent-news-big-grid.php:205
+#: includes/elements/recent-news-grid.php:176
+#: includes/elements/recent-news.php:112
+msgid "Author"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:219
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:353
+#: includes/elements/elementor/widgets/recent-news-grid.php:662
+#: includes/elements/elementor/widgets/recent-news.php:657
+#: includes/elements/recent-news-big-grid.php:118
+#: includes/elements/recent-news-big-grid.php:203
+#: includes/elements/recent-news-grid.php:174
+#: includes/elements/recent-news.php:110
+msgid "Comments"
+msgstr ""
+
+#: includes/classes/class-auxnew-template-loader.php:54
+#: includes/general-hooks.php:1974
+msgid "News Archive"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:54
+#: includes/elements/recent-news-big-grid.php:23
+msgid "Big Grid News"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:106
+#: includes/elements/elementor/widgets/recent-news-grid.php:107
+#: includes/elements/elementor/widgets/recent-news.php:107
+msgid "All Categories"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:134
+#: includes/elements/elementor/widgets/recent-news-grid.php:135
+#: includes/elements/elementor/widgets/recent-news.php:135
+#: includes/elements/recent-news-grid.php:472
+#: includes/elements/recent-news-grid.php:491
+#: includes/elements/recent-news-grid.php:508
+#: includes/elements/recent-news.php:210
+msgid "Layout"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:142
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:426
+#: includes/elements/elementor/widgets/recent-news-grid.php:735
+#: includes/elements/elementor/widgets/recent-news.php:143
+#: includes/elements/elementor/widgets/recent-news.php:730
+#: includes/elements/recent-news-big-grid.php:334
+#: includes/elements/recent-news-grid.php:394
+#: includes/elements/recent-news.php:238
+msgid "Load More Type"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:146
+#: includes/elements/recent-news-big-grid.php:261
+#: includes/general-hooks.php:163 includes/general-hooks.php:890
+#: includes/general-hooks.php:2022
+msgid "Default"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:150
+#: includes/elements/recent-news-big-grid.php:265
+msgid "Pattern 1"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:154
+#: includes/elements/recent-news-big-grid.php:269
+msgid "Pattern 2"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:158
+#: includes/elements/recent-news-big-grid.php:273
+msgid "Pattern 3"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:162
+#: includes/elements/recent-news-big-grid.php:277
+msgid "Pattern 4"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:166
+#: includes/elements/recent-news-big-grid.php:281
+msgid "Pattern 5"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:170
+#: includes/elements/recent-news-big-grid.php:285
+msgid "Pattern 6"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:174
+#: includes/elements/recent-news-big-grid.php:289
+msgid "Pattern 7"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:191
+#: includes/elements/elementor/widgets/recent-news-grid.php:343
+#: includes/elements/elementor/widgets/recent-news.php:318
+msgid "Display"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:199
+#: includes/elements/elementor/widgets/recent-news.php:395
+#: includes/elements/recent-news.php:311
+msgid "Insert news title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:201
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:213
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:225
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:237
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:249
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:307
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:319
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:331
+#: includes/elements/elementor/widgets/recent-news-grid.php:296
+#: includes/elements/elementor/widgets/recent-news-grid.php:311
+#: includes/elements/elementor/widgets/recent-news-grid.php:354
+#: includes/elements/elementor/widgets/recent-news-grid.php:367
+#: includes/elements/elementor/widgets/recent-news-grid.php:409
+#: includes/elements/elementor/widgets/recent-news-grid.php:433
+#: includes/elements/elementor/widgets/recent-news-grid.php:461
+#: includes/elements/elementor/widgets/recent-news-grid.php:476
+#: includes/elements/elementor/widgets/recent-news-grid.php:488
+#: includes/elements/elementor/widgets/recent-news-grid.php:503
+#: includes/elements/elementor/widgets/recent-news-grid.php:515
+#: includes/elements/elementor/widgets/recent-news-grid.php:528
+#: includes/elements/elementor/widgets/recent-news-grid.php:616
+#: includes/elements/elementor/widgets/recent-news-grid.php:628
+#: includes/elements/elementor/widgets/recent-news-grid.php:640
+#: includes/elements/elementor/widgets/recent-news.php:236
+#: includes/elements/elementor/widgets/recent-news.php:277
+#: includes/elements/elementor/widgets/recent-news.php:330
+#: includes/elements/elementor/widgets/recent-news.php:343
+#: includes/elements/elementor/widgets/recent-news.php:385
+#: includes/elements/elementor/widgets/recent-news.php:397
+#: includes/elements/elementor/widgets/recent-news.php:421
+#: includes/elements/elementor/widgets/recent-news.php:449
+#: includes/elements/elementor/widgets/recent-news.php:464
+#: includes/elements/elementor/widgets/recent-news.php:479
+#: includes/elements/elementor/widgets/recent-news.php:494
+#: includes/elements/elementor/widgets/recent-news.php:523
+#: includes/elements/elementor/widgets/recent-news.php:538
+#: includes/elements/elementor/widgets/recent-news.php:611
+#: includes/elements/elementor/widgets/recent-news.php:623
+#: includes/elements/elementor/widgets/recent-news.php:635
+msgid "On"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:202
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:214
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:226
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:238
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:250
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:308
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:320
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:332
+#: includes/elements/elementor/widgets/recent-news-grid.php:297
+#: includes/elements/elementor/widgets/recent-news-grid.php:312
+#: includes/elements/elementor/widgets/recent-news-grid.php:355
+#: includes/elements/elementor/widgets/recent-news-grid.php:368
+#: includes/elements/elementor/widgets/recent-news-grid.php:410
+#: includes/elements/elementor/widgets/recent-news-grid.php:434
+#: includes/elements/elementor/widgets/recent-news-grid.php:462
+#: includes/elements/elementor/widgets/recent-news-grid.php:477
+#: includes/elements/elementor/widgets/recent-news-grid.php:489
+#: includes/elements/elementor/widgets/recent-news-grid.php:504
+#: includes/elements/elementor/widgets/recent-news-grid.php:516
+#: includes/elements/elementor/widgets/recent-news-grid.php:529
+#: includes/elements/elementor/widgets/recent-news-grid.php:617
+#: includes/elements/elementor/widgets/recent-news-grid.php:629
+#: includes/elements/elementor/widgets/recent-news-grid.php:641
+#: includes/elements/elementor/widgets/recent-news.php:237
+#: includes/elements/elementor/widgets/recent-news.php:278
+#: includes/elements/elementor/widgets/recent-news.php:331
+#: includes/elements/elementor/widgets/recent-news.php:344
+#: includes/elements/elementor/widgets/recent-news.php:386
+#: includes/elements/elementor/widgets/recent-news.php:398
+#: includes/elements/elementor/widgets/recent-news.php:422
+#: includes/elements/elementor/widgets/recent-news.php:450
+#: includes/elements/elementor/widgets/recent-news.php:465
+#: includes/elements/elementor/widgets/recent-news.php:480
+#: includes/elements/elementor/widgets/recent-news.php:495
+#: includes/elements/elementor/widgets/recent-news.php:524
+#: includes/elements/elementor/widgets/recent-news.php:539
+#: includes/elements/elementor/widgets/recent-news.php:612
+#: includes/elements/elementor/widgets/recent-news.php:624
+#: includes/elements/elementor/widgets/recent-news.php:636
+msgid "Off"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:211
+#: includes/elements/recent-news-big-grid.php:308
+msgid "Limit Title to Two Lines"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:223
+#: includes/elements/elementor/widgets/recent-news.php:419
+#: includes/elements/recent-news.php:324
+msgid "Insert news info"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:235
+#: includes/elements/elementor/widgets/recent-news-grid.php:486
+#: includes/elements/recent-news-grid.php:363
+msgid "Display Date"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:247
+#: includes/elements/elementor/widgets/recent-news-grid.php:459
+#: includes/elements/recent-news-grid.php:346
+msgid "Display Categories"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:259
+#: includes/elements/elementor/widgets/recent-news-grid.php:568
+#: includes/elements/recent-news-grid.php:260 includes/general-hooks.php:1062
+msgid "Content Width"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:260
+#: includes/elements/elementor/widgets/recent-news-grid.php:569
+#: includes/elements/recent-news-grid.php:261
+msgid "Set content width on this element."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:274
+#: includes/elements/elementor/widgets/recent-news-grid.php:583
+#: includes/elements/elementor/widgets/recent-news.php:578
+#: includes/elements/recent-news-grid.php:95
+#: includes/elements/recent-news-grid.php:128
+#: includes/elements/recent-news-grid.php:141
+#: includes/elements/recent-news-grid.php:182
+#: includes/elements/recent-news-grid.php:200
+#: includes/elements/recent-news-grid.php:214
+#: includes/elements/recent-news-grid.php:228
+#: includes/elements/recent-news-grid.php:242
+#: includes/elements/recent-news-grid.php:256
+#: includes/elements/recent-news-grid.php:270
+msgid "Query"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:281
+#: includes/elements/elementor/widgets/recent-news-grid.php:590
+#: includes/elements/elementor/widgets/recent-news.php:585
+#: includes/elements/recent-news-big-grid.php:62
+#: includes/elements/recent-news-grid.php:69
+#: includes/elements/recent-news.php:54 includes/elements/recent-news.php:463
+msgid "Categories"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:282
+#: includes/elements/elementor/widgets/recent-news-grid.php:591
+#: includes/elements/elementor/widgets/recent-news.php:586
+#: includes/elements/recent-news-big-grid.php:63
+#: includes/elements/recent-news-grid.php:70
+msgid "Specifies a category that you want to show posts from it."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:293
+#: includes/elements/elementor/widgets/recent-news-grid.php:602
+#: includes/elements/elementor/widgets/recent-news.php:597
+#: includes/elements/recent-news-grid.php:85
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:305
+#: includes/elements/elementor/widgets/recent-news-grid.php:614
+#: includes/elements/elementor/widgets/recent-news.php:609
+#: includes/elements/recent-news-grid.php:119
+msgid "Exclude posts without media"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:317
+#: includes/elements/elementor/widgets/recent-news-grid.php:626
+#: includes/elements/elementor/widgets/recent-news.php:621
+#: includes/elements/recent-news-grid.php:132
+msgid "Exclude custom post formats"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:329
+#: includes/elements/elementor/widgets/recent-news-grid.php:638
+#: includes/elements/elementor/widgets/recent-news.php:633
+#: includes/elements/recent-news-grid.php:145
+msgid "Exclude quote and link post formats"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:344
+#: includes/elements/elementor/widgets/recent-news-grid.php:653
+#: includes/elements/elementor/widgets/recent-news.php:648
+#: includes/elements/recent-news-big-grid.php:105
+#: includes/elements/recent-news-big-grid.php:190
+#: includes/elements/recent-news-grid.php:161
+#: includes/elements/recent-news.php:97
+msgid "Order by"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:349
+#: includes/elements/elementor/widgets/recent-news-grid.php:658
+#: includes/elements/elementor/widgets/recent-news.php:653
+#: includes/elements/recent-news-big-grid.php:114
+#: includes/elements/recent-news-big-grid.php:199
+#: includes/elements/recent-news-grid.php:170
+#: includes/elements/recent-news.php:106
+msgid "Menu Order"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:350
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:459
+#: includes/elements/elementor/widgets/recent-news-grid.php:659
+#: includes/elements/elementor/widgets/recent-news-grid.php:838
+#: includes/elements/elementor/widgets/recent-news.php:654
+#: includes/elements/elementor/widgets/recent-news.php:869
+#: includes/elements/recent-news-big-grid.php:48
+#: includes/elements/recent-news-big-grid.php:115
+#: includes/elements/recent-news-big-grid.php:200
+#: includes/elements/recent-news-grid.php:41
+#: includes/elements/recent-news-grid.php:171
+#: includes/elements/recent-news.php:40 includes/elements/recent-news.php:107
+msgid "Title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:351
+#: includes/elements/elementor/widgets/recent-news-grid.php:660
+#: includes/elements/elementor/widgets/recent-news.php:655
+#: includes/elements/recent-news-big-grid.php:116
+#: includes/elements/recent-news-big-grid.php:201
+#: includes/elements/recent-news-grid.php:172
+#: includes/elements/recent-news.php:108
+msgid "ID"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:352
+#: includes/elements/elementor/widgets/recent-news-grid.php:661
+#: includes/elements/elementor/widgets/recent-news.php:656
+#: includes/elements/recent-news-big-grid.php:117
+#: includes/elements/recent-news-big-grid.php:202
+#: includes/elements/recent-news-grid.php:173
+#: includes/elements/recent-news.php:109
+msgid "Random"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:354
+#: includes/elements/elementor/widgets/recent-news-grid.php:663
+#: includes/elements/elementor/widgets/recent-news.php:658
+#: includes/elements/recent-news-big-grid.php:119
+#: includes/elements/recent-news-big-grid.php:204
+#: includes/elements/recent-news-grid.php:175
+#: includes/elements/recent-news.php:111
+msgid "Date Modified"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:356
+#: includes/elements/elementor/widgets/recent-news-grid.php:665
+#: includes/elements/elementor/widgets/recent-news.php:660
+#: includes/elements/recent-news-big-grid.php:121
+#: includes/elements/recent-news-big-grid.php:206
+#: includes/elements/recent-news-grid.php:177
+#: includes/elements/recent-news.php:113
+msgid "Inserted Post IDs"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:364
+#: includes/elements/elementor/widgets/recent-news-grid.php:673
+#: includes/elements/elementor/widgets/recent-news.php:668
+#: includes/elements/recent-news-big-grid.php:130
+#: includes/elements/recent-news-big-grid.php:215
+#: includes/elements/recent-news-grid.php:186
+#: includes/elements/recent-news.php:122
+msgid "Order"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:368
+#: includes/elements/elementor/widgets/recent-news-grid.php:677
+#: includes/elements/elementor/widgets/recent-news.php:672
+#: includes/elements/recent-news-big-grid.php:138
+#: includes/elements/recent-news-big-grid.php:223
+#: includes/elements/recent-news-grid.php:194
+#: includes/elements/recent-news.php:130
+msgid "Descending"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:369
+#: includes/elements/elementor/widgets/recent-news-grid.php:678
+#: includes/elements/elementor/widgets/recent-news.php:673
+#: includes/elements/recent-news-big-grid.php:139
+#: includes/elements/recent-news-big-grid.php:224
+#: includes/elements/recent-news-grid.php:195
+#: includes/elements/recent-news.php:131
+msgid "Ascending"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:377
+#: includes/elements/elementor/widgets/recent-news-grid.php:686
+#: includes/elements/elementor/widgets/recent-news.php:681
+#: includes/elements/recent-news-big-grid.php:148
+#: includes/elements/recent-news-grid.php:204
+msgid "Only posts"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:378
+#: includes/elements/elementor/widgets/recent-news-grid.php:687
+#: includes/elements/elementor/widgets/recent-news.php:682
+#: includes/elements/recent-news-big-grid.php:149
+#: includes/elements/recent-news-grid.php:205
+msgid ""
+"If you intend to display ONLY specific posts, you should specify the posts "
+"here. You have to insert the post IDs that are separated by comma (eg. "
+"53,34,87,25)."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:386
+#: includes/elements/elementor/widgets/recent-news-grid.php:695
+#: includes/elements/elementor/widgets/recent-news.php:690
+#: includes/elements/recent-news-big-grid.php:162
+#: includes/elements/recent-news-grid.php:218
+msgid "Include posts"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:387
+#: includes/elements/elementor/widgets/recent-news-grid.php:696
+#: includes/elements/elementor/widgets/recent-news.php:691
+#: includes/elements/recent-news-big-grid.php:163
+#: includes/elements/recent-news-grid.php:219
+msgid ""
+"If you intend to include additional posts, you should specify the posts "
+"here. You have to insert the Post IDs that are separated by comma (eg. "
+"53,34,87,25)"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:395
+#: includes/elements/elementor/widgets/recent-news-grid.php:704
+#: includes/elements/elementor/widgets/recent-news.php:699
+#: includes/elements/recent-news-big-grid.php:176
+#: includes/elements/recent-news-grid.php:232
+msgid "Exclude posts"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:396
+#: includes/elements/elementor/widgets/recent-news-grid.php:705
+#: includes/elements/elementor/widgets/recent-news.php:700
+#: includes/elements/recent-news-big-grid.php:177
+#: includes/elements/recent-news-grid.php:233
+msgid ""
+"If you intend to exclude specific posts from result, you should specify the "
+"posts here. You have to insert the Post IDs that are separated by comma "
+"(eg. 53,34,87,25)"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:404
+#: includes/elements/elementor/widgets/recent-news-grid.php:713
+#: includes/elements/elementor/widgets/recent-news.php:708
+#: includes/elements/recent-news-big-grid.php:233
+#: includes/elements/recent-news-grid.php:246
+#: includes/elements/recent-news.php:196
+msgid "Start offset"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:405
+#: includes/elements/elementor/widgets/recent-news-grid.php:714
+#: includes/elements/elementor/widgets/recent-news.php:709
+#: includes/elements/recent-news-big-grid.php:234
+#: includes/elements/recent-news-grid.php:247
+#: includes/elements/recent-news.php:197
+msgid "Number of post to displace or pass over."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:419
+#: includes/elements/elementor/widgets/recent-news-grid.php:728
+#: includes/elements/elementor/widgets/recent-news.php:723
+msgid "Paginate"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:430
+#: includes/elements/elementor/widgets/recent-news-grid.php:249
+#: includes/elements/elementor/widgets/recent-news-grid.php:559
+#: includes/elements/elementor/widgets/recent-news-grid.php:739
+#: includes/elements/elementor/widgets/recent-news.php:512
+#: includes/elements/elementor/widgets/recent-news.php:734
+#: includes/elements/recent-news-big-grid.php:347
+#: includes/elements/recent-news-grid.php:407
+#: includes/elements/recent-news-grid.php:449
+#: includes/elements/recent-news-grid.php:627
+#: includes/elements/recent-news.php:251 includes/general-hooks.php:1206
+#: includes/general-hooks.php:1581 includes/general-hooks.php:2336
+msgid "None"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:434
+#: includes/elements/elementor/widgets/recent-news-grid.php:743
+#: includes/elements/elementor/widgets/recent-news.php:738
+#: includes/elements/recent-news-big-grid.php:351
+#: includes/elements/recent-news-grid.php:411
+#: includes/elements/recent-news.php:255
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:438
+#: includes/elements/elementor/widgets/recent-news-grid.php:747
+#: includes/elements/elementor/widgets/recent-news.php:742
+#: includes/elements/recent-news-big-grid.php:355
+#: includes/elements/recent-news-grid.php:415
+#: includes/elements/recent-news.php:259
+msgid "Next Button"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:442
+#: includes/elements/elementor/widgets/recent-news-grid.php:751
+#: includes/elements/elementor/widgets/recent-news.php:746
+#: includes/elements/recent-news-big-grid.php:359
+#: includes/elements/recent-news-grid.php:419
+#: includes/elements/recent-news.php:263
+msgid "Next Prev"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:472
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:576
+#: includes/elements/elementor/widgets/recent-news-grid.php:851
+#: includes/elements/elementor/widgets/recent-news-grid.php:955
+#: includes/elements/elementor/widgets/recent-news-grid.php:1142
+#: includes/elements/elementor/widgets/recent-news-grid.php:1257
+#: includes/elements/elementor/widgets/recent-news.php:895
+#: includes/elements/elementor/widgets/recent-news.php:1001
+#: includes/elements/elementor/widgets/recent-news.php:1105
+#: includes/elements/elementor/widgets/recent-news.php:1279
+msgid "Normal"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:482
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:508
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:586
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:613
+#: includes/elements/elementor/widgets/recent-news-grid.php:861
+#: includes/elements/elementor/widgets/recent-news-grid.php:887
+#: includes/elements/elementor/widgets/recent-news-grid.php:965
+#: includes/elements/elementor/widgets/recent-news-grid.php:991
+#: includes/elements/elementor/widgets/recent-news-grid.php:1077
+#: includes/elements/elementor/widgets/recent-news-grid.php:1264
+#: includes/elements/elementor/widgets/recent-news-grid.php:1284
+#: includes/elements/elementor/widgets/recent-news.php:906
+#: includes/elements/elementor/widgets/recent-news.php:934
+#: includes/elements/elementor/widgets/recent-news.php:1011
+#: includes/elements/elementor/widgets/recent-news.php:1037
+#: includes/elements/elementor/widgets/recent-news.php:1115
+#: includes/elements/elementor/widgets/recent-news.php:1141
+#: includes/elements/elementor/widgets/recent-news.php:1224
+msgid "Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:498
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:603
+#: includes/elements/elementor/widgets/recent-news-grid.php:877
+#: includes/elements/elementor/widgets/recent-news-grid.php:981
+#: includes/elements/elementor/widgets/recent-news-grid.php:1172
+#: includes/elements/elementor/widgets/recent-news-grid.php:1277
+#: includes/elements/elementor/widgets/recent-news.php:923
+#: includes/elements/elementor/widgets/recent-news.php:1027
+#: includes/elements/elementor/widgets/recent-news.php:1131
+#: includes/elements/elementor/widgets/recent-news.php:1312
+msgid "Hover"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:538
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:643
+#: includes/elements/elementor/widgets/recent-news-grid.php:917
+#: includes/elements/elementor/widgets/recent-news-grid.php:1021
+#: includes/elements/elementor/widgets/recent-news-grid.php:1103
+#: includes/elements/elementor/widgets/recent-news-grid.php:1225
+#: includes/elements/elementor/widgets/recent-news-grid.php:1308
+#: includes/elements/elementor/widgets/recent-news.php:966
+#: includes/elements/elementor/widgets/recent-news.php:1067
+#: includes/elements/elementor/widgets/recent-news.php:1171
+#: includes/elements/elementor/widgets/recent-news.php:1244
+#: includes/elements/elementor/widgets/recent-news.php:1368
+msgid "Bottom space"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:563
+#: includes/elements/elementor/widgets/recent-news-grid.php:942
+#: includes/elements/elementor/widgets/recent-news.php:1092
+msgid "Post Info"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-big-grid.php:662
+#: includes/elements/elementor/widgets/recent-news-grid.php:1040
+#: includes/elements/elementor/widgets/recent-news.php:1190
+msgid "Space between metas"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:55
+msgid "Grid & Carousel News"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:143
+msgid "Columns"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:149
+msgid "Inherited from larger"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:164
+#: includes/elements/recent-news-grid.php:512
+msgid "Display items as"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:168
+#: includes/elements/recent-news-grid.php:520
+msgid "Grid"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:169
+#: includes/elements/recent-news-grid.php:521
+msgid "Grid - Table Style"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:170
+#: includes/elements/recent-news-grid.php:522
+msgid "Grid - Modern Style"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:171
+#: includes/elements/recent-news-grid.php:523
+msgid "Carousel - Modern Style"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:172
+#: includes/elements/recent-news-grid.php:524
+#: includes/elements/recent-news-grid.php:613
+#: includes/elements/recent-news-grid.php:635
+#: includes/elements/recent-news-grid.php:655
+#: includes/elements/recent-news-grid.php:675
+#: includes/elements/recent-news-grid.php:690
+#: includes/elements/recent-news-grid.php:706
+#: includes/elements/recent-news-grid.php:723
+msgid "Carousel"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:180
+#: includes/elements/recent-news-grid.php:533
+msgid "Content layout"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:184
+#: includes/elements/recent-news-grid.php:541
+msgid "Full Content"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:185
+#: includes/elements/recent-news-grid.php:542
+msgid "Boxed Content"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:196
+#: includes/elements/recent-news-grid.php:554
+msgid "Mouse Over Effect"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:201
+#: includes/elements/recent-news-grid.php:562
+msgid "Background color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:202
+#: includes/elements/recent-news-grid.php:563
+msgid "Cover image"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:203
+#: includes/elements/recent-news-grid.php:564
+msgid "Cover image or background color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:204
+#: includes/elements/recent-news-grid.php:565
+msgid "Nothing"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:215
+#: includes/elements/recent-news-grid.php:578
+msgid "Column space"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:216
+#: includes/elements/recent-news-grid.php:579
+msgid "Specifies horizontal space between items (pixel)."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:228
+#: includes/elements/recent-news-grid.php:595
+msgid "Navigation type"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:232
+#: includes/elements/recent-news-grid.php:603
+msgid "Move per column"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:233
+#: includes/elements/recent-news-grid.php:604
+msgid "Move per page"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:234
+#: includes/elements/recent-news-grid.php:605
+msgid "Smooth scroll"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:245
+#: includes/elements/recent-news-grid.php:617
+msgid "Navigation control"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:250
+#: includes/elements/recent-news-grid.php:625
+msgid "Arrows"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:251
+#: includes/elements/recent-news-grid.php:626
+msgid "Bullets"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:262
+#: includes/elements/recent-news-grid.php:639
+msgid "Control Position"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:266
+#: includes/elements/recent-news-grid.php:646 includes/general-hooks.php:147
+#: includes/general-hooks.php:1512
+msgid "Center"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:267
+#: includes/elements/recent-news-grid.php:647
+msgid "Side"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:278
+#: includes/elements/recent-news-grid.php:659
+msgid "Control Skin"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:282
+#: includes/elements/recent-news-grid.php:666
+msgid "boxed"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:283
+#: includes/elements/recent-news-grid.php:667
+msgid "Long Arrow"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:294
+#: includes/elements/recent-news-grid.php:679
+msgid "Loop navigation"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:309
+#: includes/elements/recent-news-grid.php:694
+msgid "Autoplay carousel"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:324
+#: includes/elements/recent-news-grid.php:710
+msgid "Autoplay delay"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:325
+#: includes/elements/recent-news-grid.php:711
+msgid "Specifies the delay between auto-forwarding in seconds."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:351
+#: includes/elements/recent-news-grid.php:274
+msgid "Display post media (image, video, etc)"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:365
+#: includes/elements/elementor/widgets/recent-news.php:341
+msgid "Preload image"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:380
+#: includes/elements/elementor/widgets/recent-news.php:356
+msgid "While loading image display"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:395
+#: includes/elements/elementor/widgets/recent-news.php:371
+msgid "Placeholder color while loading image"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:407
+#: includes/elements/recent-news-grid.php:288
+msgid "Display post title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:419
+#: includes/elements/elementor/widgets/recent-news.php:407
+msgid "Title Trim"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:431
+#: includes/elements/recent-news-grid.php:301
+msgid "Display post info"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:443
+#: includes/elements/elementor/widgets/recent-news.php:431
+#: includes/elements/recent-news-grid.php:325
+#: includes/elements/recent-news.php:336
+msgid "Post info position"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:447
+#: includes/elements/elementor/widgets/recent-news.php:436
+#: includes/elements/recent-news-grid.php:333
+#: includes/elements/recent-news.php:352 includes/general-hooks.php:2242
+msgid "After Title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:448
+#: includes/elements/elementor/widgets/recent-news.php:435
+#: includes/elements/recent-news-grid.php:334
+#: includes/elements/recent-news.php:351 includes/general-hooks.php:2241
+msgid "Before Title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:474
+#: includes/elements/elementor/widgets/recent-news.php:492
+msgid "Display Category Badge"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:501
+#: includes/elements/recent-news-grid.php:313
+msgid "Display post content"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:513
+#: includes/elements/elementor/widgets/recent-news.php:536
+#: includes/elements/recent-news-grid.php:380
+msgid "Display like button"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:525
+msgid "Display excerpt"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:526
+msgid "Enable it to display post summary instead of full content."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:538
+#: includes/elements/recent-news-grid.php:425
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:539
+#: includes/elements/recent-news-grid.php:426
+msgid "Specify summary content in character."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:551
+#: includes/elements/elementor/widgets/recent-news.php:504
+#: includes/elements/recent-news-grid.php:439 includes/general-hooks.php:2319
+msgid "Display author or read more"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:553
+#: includes/elements/elementor/widgets/recent-news.php:506
+#: includes/elements/recent-news-grid.php:440 includes/general-hooks.php:2320
+msgid "Specifies whether to show author or read more on each post."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:557
+#: includes/elements/elementor/widgets/recent-news.php:510
+#: includes/elements/recent-news-grid.php:447 includes/general-hooks.php:2334
+#: public/templates/theme-parts/entry/news.php:98
+msgid "Read More"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:768
+#: includes/elements/elementor/widgets/recent-news.php:763
+msgid "Image"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:779
+#: includes/elements/elementor/widgets/recent-news.php:774
+#: includes/elements/recent-news-grid.php:99
+#: includes/elements/recent-news.php:404
+msgid "Image aspect ratio"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:783
+#: includes/elements/elementor/widgets/recent-news.php:778
+#: includes/elements/elementor/widgets/recent-news.php:815
+#: includes/elements/recent-news-grid.php:107
+#: includes/elements/recent-news.php:412 includes/elements/recent-news.php:432
+msgid "Horizontal 4:3"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:784
+#: includes/elements/elementor/widgets/recent-news.php:779
+#: includes/elements/elementor/widgets/recent-news.php:816
+#: includes/elements/recent-news-grid.php:108
+#: includes/elements/recent-news.php:413 includes/elements/recent-news.php:433
+msgid "Horizontal 16:9"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:785
+#: includes/elements/elementor/widgets/recent-news.php:780
+#: includes/elements/elementor/widgets/recent-news.php:817
+#: includes/elements/recent-news-grid.php:109
+#: includes/elements/recent-news.php:414 includes/elements/recent-news.php:434
+msgid "Square 1:1"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:786
+#: includes/elements/elementor/widgets/recent-news.php:781
+#: includes/elements/elementor/widgets/recent-news.php:818
+#: includes/elements/recent-news-grid.php:110
+#: includes/elements/recent-news.php:415 includes/elements/recent-news.php:435
+msgid "Vertical 3:4"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:787
+#: includes/elements/elementor/widgets/recent-news.php:782
+#: includes/elements/elementor/widgets/recent-news.php:819
+msgid "Custom"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:799
+#: includes/elements/elementor/widgets/recent-news.php:793
+#: includes/elements/elementor/widgets/recent-news.php:830
+msgid "Custom Aspect Ratio"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:817
+#: includes/elements/elementor/widgets/recent-news.php:848
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:1066
+#: includes/elements/elementor/widgets/recent-news.php:1216
+msgid "Excerpt"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:1129
+#: includes/elements/elementor/widgets/recent-news.php:1266
+msgid "Badge"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:1150
+#: includes/elements/elementor/widgets/recent-news-grid.php:1180
+#: includes/elements/elementor/widgets/recent-news.php:1290
+#: includes/elements/elementor/widgets/recent-news.php:1323
+msgid "Background"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:1159
+#: includes/elements/elementor/widgets/recent-news-grid.php:1189
+#: includes/elements/elementor/widgets/recent-news.php:1299
+#: includes/elements/elementor/widgets/recent-news.php:1332
+#: includes/general-hooks.php:341 includes/general-hooks.php:541
+msgid "Text"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:1213
+#: includes/elements/elementor/widgets/recent-news.php:1356
+msgid "Padding"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news-grid.php:1247
+msgid "Meta"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:55
+#: includes/elements/recent-news.php:15
+msgid "Recent News"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:147
+#: includes/elements/recent-news.php:223
+msgid "Top Header"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:151
+#: includes/elements/recent-news.php:227
+msgid "Side Header"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:162
+msgid "Big Column Width"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:191
+msgid "Side Column Width"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:226
+#: includes/elements/elementor/widgets/recent-news.php:1390
+msgid "Filter"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:234
+#: includes/elements/recent-news.php:444
+msgid "Show filters"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:274
+#: includes/elements/recent-news.php:499
+msgid "Category Filter Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:275
+#: includes/elements/recent-news.php:500
+msgid "Enable category filter color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:290
+#: includes/elements/recent-news.php:475
+msgid "Filter button style"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:291
+#: includes/elements/recent-news.php:476
+msgid "Style of filter buttons."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:295
+#: includes/elements/recent-news.php:489
+msgid "Slide up"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:296
+#: includes/elements/recent-news.php:490
+msgid "Fill"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:297
+#: includes/elements/recent-news.php:491
+msgid "Cube"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:298
+#: includes/elements/recent-news.php:492
+msgid "Underline"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:299
+#: includes/elements/recent-news.php:493
+msgid "Float frame"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:300
+#: includes/elements/recent-news.php:494
+msgid "Borderd"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:301
+#: includes/elements/recent-news.php:495
+msgid "Float underline"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:327
+#: includes/elements/recent-news.php:298
+msgid "Show posts image"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:383
+#: includes/elements/recent-news.php:269
+msgid "Show big post"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:447
+#: includes/elements/recent-news.php:388
+msgid "Insert news categories"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:462
+#: includes/elements/recent-news.php:372
+msgid "Insert news author"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:477
+#: includes/elements/recent-news.php:356
+msgid "Insert news date"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:521
+msgid "Display Comments Number"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:551
+#: includes/elements/recent-news.php:182
+msgid "Big Post Content Length"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:563
+msgid "Content Length"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:811
+msgid "Big Post Image aspect ratio"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:880
+#: includes/general-hooks.php:2551
+msgid "Big Post Title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:986
+msgid "Normal Title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:1398
+msgid "Title Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:1410
+msgid "Title Typography"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:1420
+msgid "Filters Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-news.php:1432
+msgid "Filters Typography"
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:26
+msgid "It adds recent news in grid style."
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:49
+msgid "Recent news title, leave it empty if you don`t need title."
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:78
+msgid "Number of news to show"
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:92
+#: includes/elements/recent-news.php:84
+msgid "Exclude news without media"
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:247
+msgid "Post Big Grid style"
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:295
+msgid "Insert post title"
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:322
+msgid "Insert news meta"
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:365
+#: includes/elements/recent-news-grid.php:727
+#: includes/elements/recent-news.php:514
+msgid "Extra class name"
+msgstr ""
+
+#: includes/elements/recent-news-big-grid.php:366
+#: includes/elements/recent-news-grid.php:728
+#: includes/elements/recent-news.php:515
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:16
+msgid "Grid & Carousel Recent News"
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:19
+msgid "It adds recent posts in grid or carousel mode."
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:42
+msgid "Recent post title, leave it empty if you don`t need title."
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:55
+msgid "Subtitle"
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:56
+msgid "Recent posts subtitle, leave it empty if you don`t need title."
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:381
+msgid ""
+"Enable it to display %s like button%s on gride template blog. Please note "
+"WP Ulike plugin needs to be activaited to use this option."
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:458
+msgid "Number of columns"
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:476
+msgid "Number of columns in tablet size"
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:495
+msgid "Number of columns in phone size"
+msgstr ""
+
+#: includes/elements/recent-news-grid.php:534
+msgid "Specifies the style of content for each post column."
+msgstr ""
+
+#: includes/elements/recent-news.php:18
+msgid "It adds recent news."
+msgstr ""
+
+#: includes/elements/recent-news.php:41
+msgid "Recent items title, leave it empty if you don`t need title."
+msgstr ""
+
+#: includes/elements/recent-news.php:55
+msgid "Specifies a category that you want to show news items from it."
+msgstr ""
+
+#: includes/elements/recent-news.php:70
+msgid "Number of items to show"
+msgstr ""
+
+#: includes/elements/recent-news.php:71
+msgid "Leave it empty to show all items"
+msgstr ""
+
+#: includes/elements/recent-news.php:140
+msgid "Only news"
+msgstr ""
+
+#: includes/elements/recent-news.php:141
+msgid ""
+"If you intend to display ONLY specific news, you should specify them here. "
+"You have to insert the post IDs that are separated by comma (eg. "
+"53,34,87,25)."
+msgstr ""
+
+#: includes/elements/recent-news.php:154
+msgid "Include news"
+msgstr ""
+
+#: includes/elements/recent-news.php:155
+msgid ""
+"If you intend to include additional news, you should specify them here. You "
+"have to insert the Post IDs that are separated by comma (eg. 53,34,87,25)"
+msgstr ""
+
+#: includes/elements/recent-news.php:168
+msgid "Exclude news"
+msgstr ""
+
+#: includes/elements/recent-news.php:169
+msgid ""
+"If you intend to exclude specific news from result, you should specify the "
+"news here. You have to insert the Post IDs that are separated by comma (eg. "
+"53,34,87,25)"
+msgstr ""
+
+#: includes/elements/recent-news.php:211
+msgid "Different layout types of appearing items."
+msgstr ""
+
+#: includes/elements/recent-news.php:282
+msgid "Show big post image"
+msgstr ""
+
+#: includes/elements/recent-news.php:424
+msgid "Big Image aspect ratio"
+msgstr ""
+
+#: includes/elements/recent-news.php:456
+msgid "Filter by"
+msgstr ""
+
+#: includes/elements/recent-news.php:457
+msgid "Filter by categories or tags"
+msgstr ""
+
+#: includes/general-hooks.php:36
+msgid "Single News"
+msgstr ""
+
+#: includes/general-hooks.php:37
+msgid "Preview a Single News Page"
+msgstr ""
+
+#: includes/general-hooks.php:42
+msgid "Single News Sidebar Position"
+msgstr ""
+
+#: includes/general-hooks.php:43
+msgid "Specifies position of sidebar on single news."
+msgstr ""
+
+#: includes/general-hooks.php:50 includes/general-hooks.php:2045
+#: includes/general-hooks.php:2358
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:54 includes/general-hooks.php:2049
+#: includes/general-hooks.php:2362
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:58 includes/general-hooks.php:2053
+#: includes/general-hooks.php:2366
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:62 includes/general-hooks.php:2057
+#: includes/general-hooks.php:2370
+msgid "Left Left Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:66 includes/general-hooks.php:2061
+#: includes/general-hooks.php:2374
+msgid "Right Right Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:70 includes/general-hooks.php:2065
+#: includes/general-hooks.php:2378
+msgid "Left Right Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:74 includes/general-hooks.php:2069
+#: includes/general-hooks.php:2382
+msgid "Right Left Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:83
+msgid "Single News Sidebar Style"
+msgstr ""
+
+#: includes/general-hooks.php:98 includes/general-hooks.php:2093
+#: includes/general-hooks.php:2406
+msgid "Simple"
+msgstr ""
+
+#: includes/general-hooks.php:102 includes/general-hooks.php:2097
+#: includes/general-hooks.php:2410
+msgid "Bordered Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:106 includes/general-hooks.php:2101
+#: includes/general-hooks.php:2414
+msgid "Overlap Background"
+msgstr ""
+
+#: includes/general-hooks.php:115
+msgid "Single News Featured Color"
+msgstr ""
+
+#: includes/general-hooks.php:116
+msgid "Specifies featured color for news posts."
+msgstr ""
+
+#: includes/general-hooks.php:134
+msgid "Title Alignment"
+msgstr ""
+
+#: includes/general-hooks.php:135
+msgid "Specifies title alignment on single news."
+msgstr ""
+
+#: includes/general-hooks.php:143 includes/general-hooks.php:1508
+msgid "Left"
+msgstr ""
+
+#: includes/general-hooks.php:156
+msgid "Content Style"
+msgstr ""
+
+#: includes/general-hooks.php:157
+msgid ""
+"You can reduce the width of text lines and increase the readability of "
+"context in single post of news (does not affect the width of media)."
+msgstr ""
+
+#: includes/general-hooks.php:167
+msgid "Narrow Content"
+msgstr ""
+
+#: includes/general-hooks.php:178
+msgid "Display News Info"
+msgstr ""
+
+#: includes/general-hooks.php:179
+msgid "Enable it to display news date, categories and author name in news page ."
+msgstr ""
+
+#: includes/general-hooks.php:197
+msgid "Display news date"
+msgstr ""
+
+#: includes/general-hooks.php:198
+msgid "Enable it to show the news date."
+msgstr ""
+
+#: includes/general-hooks.php:221
+msgid "Display news author"
+msgstr ""
+
+#: includes/general-hooks.php:222
+msgid "Enable it to show the news author."
+msgstr ""
+
+#: includes/general-hooks.php:245
+msgid "Author avatar size"
+msgstr ""
+
+#: includes/general-hooks.php:273
+msgid "Display news caregories"
+msgstr ""
+
+#: includes/general-hooks.php:274
+msgid "Enable it to show the news categories."
+msgstr ""
+
+#: includes/general-hooks.php:297
+msgid "Display Tags Section"
+msgstr ""
+
+#: includes/general-hooks.php:298
+msgid "Enable it to display tags section under the news content."
+msgstr ""
+
+#: includes/general-hooks.php:315
+msgid "Display Share Button"
+msgstr ""
+
+#: includes/general-hooks.php:316
+msgid "Enable it to display %s share button%s on single news."
+msgstr ""
+
+#: includes/general-hooks.php:333
+msgid "Share Button Type"
+msgstr ""
+
+#: includes/general-hooks.php:334 includes/general-hooks.php:534
+msgid "Enable it to display text instead of icon on single news."
+msgstr ""
+
+#: includes/general-hooks.php:340 includes/general-hooks.php:540
+msgid "Icon"
+msgstr ""
+
+#: includes/general-hooks.php:364
+msgid "Share Button Icon"
+msgstr ""
+
+#: includes/general-hooks.php:390
+msgid "Icon Color"
+msgstr ""
+
+#: includes/general-hooks.php:391
+msgid "Share icon color"
+msgstr ""
+
+#: includes/general-hooks.php:419 includes/general-hooks.php:623
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/general-hooks.php:420
+msgid "Share icon hover color"
+msgstr ""
+
+#: includes/general-hooks.php:448
+msgid "Share Button Icon Size"
+msgstr ""
+
+#: includes/general-hooks.php:482
+msgid "Share Button Margin"
+msgstr ""
+
+#: includes/general-hooks.php:510
+msgid "Display Like Button"
+msgstr ""
+
+#: includes/general-hooks.php:511
+msgid ""
+"Enable it to display %s like button%s on single news. Please note WP Ulike "
+"plugin needs to be activaited in order to use this option."
+msgstr ""
+
+#: includes/general-hooks.php:533
+msgid "Like Button Type"
+msgstr ""
+
+#: includes/general-hooks.php:554
+msgid "Like Icon"
+msgstr ""
+
+#: includes/general-hooks.php:575
+msgid "Icon Liked Color"
+msgstr ""
+
+#: includes/general-hooks.php:576 includes/general-hooks.php:600
+msgid "Like icon color"
+msgstr ""
+
+#: includes/general-hooks.php:599
+msgid "Icon Not Liked Color"
+msgstr ""
+
+#: includes/general-hooks.php:624
+msgid "Like icon hover color"
+msgstr ""
+
+#: includes/general-hooks.php:647
+msgid "Like Button Icon Size"
+msgstr ""
+
+#: includes/general-hooks.php:676
+msgid "Like Button Margin"
+msgstr ""
+
+#: includes/general-hooks.php:699
+msgid "Display Author Section"
+msgstr ""
+
+#: includes/general-hooks.php:700
+msgid ""
+"Enable it to display %s author information%s after news content on single "
+"news."
+msgstr ""
+
+#: includes/general-hooks.php:717
+msgid "Display Author Biography Text"
+msgstr ""
+
+#: includes/general-hooks.php:718
+msgid ""
+"Enable it to display %s author biography text%s in author section on single "
+"news."
+msgstr ""
+
+#: includes/general-hooks.php:741
+msgid "Display Author Socials"
+msgstr ""
+
+#: includes/general-hooks.php:742
+msgid "Enable it to display %s author socials%s in author section on single news."
+msgstr ""
+
+#: includes/general-hooks.php:765
+msgid "Display Next & Previous News"
+msgstr ""
+
+#: includes/general-hooks.php:766
+msgid "Enable it to display links to next and previous news on single news page."
+msgstr ""
+
+#: includes/general-hooks.php:783
+msgid "Skin for Next & Previous Links"
+msgstr ""
+
+#: includes/general-hooks.php:784
+msgid "Specifies the skin for next and previous navigation block."
+msgstr ""
+
+#: includes/general-hooks.php:797
+msgid "Minimal (default)"
+msgstr ""
+
+#: includes/general-hooks.php:801
+msgid "Thumbnail with Arrow"
+msgstr ""
+
+#: includes/general-hooks.php:805
+msgid "Thumbnail without Arrow"
+msgstr ""
+
+#: includes/general-hooks.php:809
+msgid "Navigation with Light Background"
+msgstr ""
+
+#: includes/general-hooks.php:813
+msgid "Navigation with Dark Background"
+msgstr ""
+
+#: includes/general-hooks.php:817
+msgid "Sticky Thumbnail with Arrow"
+msgstr ""
+
+#: includes/general-hooks.php:827
+#: public/templates/theme-parts/entry/single-news.php:159
+msgid "Previous News"
+msgstr ""
+
+#: includes/general-hooks.php:828
+#: public/templates/theme-parts/entry/single-news.php:160
+msgid "Next News"
+msgstr ""
+
+#: includes/general-hooks.php:844
+msgid "News Title"
+msgstr ""
+
+#: includes/general-hooks.php:845
+msgid "Preview a news page"
+msgstr ""
+
+#: includes/general-hooks.php:850
+msgid "Display Title Bar Section"
+msgstr ""
+
+#: includes/general-hooks.php:851
+msgid "Enable it to show the title section."
+msgstr ""
+
+#: includes/general-hooks.php:867
+msgid "Layout presets"
+msgstr ""
+
+#: includes/general-hooks.php:909
+msgid "Title bar with light overlay which is aligned center"
+msgstr ""
+
+#: includes/general-hooks.php:927
+msgid "Fullscreen title bar with light overlay on background"
+msgstr ""
+
+#: includes/general-hooks.php:945
+msgid "Fullscreen title bar with dark overlay on background"
+msgstr ""
+
+#: includes/general-hooks.php:963
+msgid "Fullscreen title bar with border around the title"
+msgstr ""
+
+#: includes/general-hooks.php:981
+msgid "Fullscreen title bar with dark box around the title"
+msgstr ""
+
+#: includes/general-hooks.php:999
+msgid "Title aligned left with dark overlay on background"
+msgstr ""
+
+#: includes/general-hooks.php:1017
+msgid "Tile overlaps the title area section and is aligned center"
+msgstr ""
+
+#: includes/general-hooks.php:1038
+msgid "Enable advanced setting"
+msgstr ""
+
+#: includes/general-hooks.php:1039
+msgid "Enable it to customize preset layouts."
+msgstr ""
+
+#: includes/general-hooks.php:1084
+msgid "Boxed"
+msgstr ""
+
+#: includes/general-hooks.php:1088
+msgid "Full Width Content with Space on Sides"
+msgstr ""
+
+#: includes/general-hooks.php:1092
+msgid "Full Width Content"
+msgstr ""
+
+#: includes/general-hooks.php:1099
+msgid "Title Section Height"
+msgstr ""
+
+#: includes/general-hooks.php:1126
+msgid "Auto Height"
+msgstr ""
+
+#: includes/general-hooks.php:1127
+msgid "Full Height"
+msgstr ""
+
+#: includes/general-hooks.php:1132
+msgid "Vertical Position"
+msgstr ""
+
+#: includes/general-hooks.php:1133
+msgid "Specifies vertical alignment of title and subtitle."
+msgstr ""
+
+#: includes/general-hooks.php:1134
+msgid ""
+"Note: Parallax feature in not available for \"Bottom Overlap\" vertical "
+"mode."
+msgstr ""
+
+#: includes/general-hooks.php:1160
+msgid "Top"
+msgstr ""
+
+#: includes/general-hooks.php:1161
+msgid "Middle"
+msgstr ""
+
+#: includes/general-hooks.php:1162
+msgid "Bottom"
+msgstr ""
+
+#: includes/general-hooks.php:1163
+msgid "Bottom Overlap"
+msgstr ""
+
+#: includes/general-hooks.php:1168
+msgid "Scroll Down Arrow"
+msgstr ""
+
+#: includes/general-hooks.php:1169
+msgid "This option only applies if section height is \"Full Height\"."
+msgstr ""
+
+#: includes/general-hooks.php:1210
+msgid "Round"
+msgstr ""
+
+#: includes/general-hooks.php:1217
+msgid "Display Titles"
+msgstr ""
+
+#: includes/general-hooks.php:1218
+msgid "Enable it to display title/subtitle in title section."
+msgstr ""
+
+#: includes/general-hooks.php:1246
+msgid "Border for Heading"
+msgstr ""
+
+#: includes/general-hooks.php:1247
+msgid "Enable it to display a border around the title and subtitle area."
+msgstr ""
+
+#: includes/general-hooks.php:1280
+msgid "Boxed Title"
+msgstr ""
+
+#: includes/general-hooks.php:1281
+msgid "Enable it to wrap the title and subtitle in a box with background color."
+msgstr ""
+
+#: includes/general-hooks.php:1314
+msgid "Title Box Custom Color"
+msgstr ""
+
+#: includes/general-hooks.php:1315
+msgid ""
+"Specifies a custom background color for the box around the title and "
+"subtitle."
+msgstr ""
+
+#: includes/general-hooks.php:1354
+msgid "Display Post Meta"
+msgstr ""
+
+#: includes/general-hooks.php:1355
+msgid "Enable it to display post meta information on title section."
+msgstr ""
+
+#: includes/general-hooks.php:1383
+msgid "Display Breadcrumb"
+msgstr ""
+
+#: includes/general-hooks.php:1384
+msgid "Enable it to display breadcrumb on title section."
+msgstr ""
+
+#: includes/general-hooks.php:1412
+msgid "Border for Breadcrumb"
+msgstr ""
+
+#: includes/general-hooks.php:1413
+msgid "Enable it to display border around breadcrumb."
+msgstr ""
+
+#: includes/general-hooks.php:1446
+msgid "Breadcrumb Separator Icon"
+msgstr ""
+
+#: includes/general-hooks.php:1480
+msgid "Text Align"
+msgstr ""
+
+#: includes/general-hooks.php:1516
+msgid "Right"
+msgstr ""
+
+#: includes/general-hooks.php:1523
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/general-hooks.php:1524
+msgid ""
+"The color that overlay on the background. Please note that color should "
+"have transparency."
+msgstr ""
+
+#: includes/general-hooks.php:1553
+msgid "Overlay Pattern"
+msgstr ""
+
+#: includes/general-hooks.php:1585
+msgid "Hash"
+msgstr ""
+
+#: includes/general-hooks.php:1592
+msgid "Overlay Pattern Opacity"
+msgstr ""
+
+#: includes/general-hooks.php:1628
+msgid "Color Mode"
+msgstr ""
+
+#: includes/general-hooks.php:1655
+msgid "Dark"
+msgstr ""
+
+#: includes/general-hooks.php:1656
+msgid "Light"
+msgstr ""
+
+#: includes/general-hooks.php:1663
+msgid "Enable Title Background"
+msgstr ""
+
+#: includes/general-hooks.php:1664
+msgid "Enable it to display custom background for title section."
+msgstr ""
+
+#: includes/general-hooks.php:1692
+msgid "Enable Parallax Effect"
+msgstr ""
+
+#: includes/general-hooks.php:1693
+msgid "Enable it to have parallax background effect on this section."
+msgstr ""
+
+#: includes/general-hooks.php:1694
+msgid ""
+"Note: Parallax feature in not available for \"Bottom Overlap\" mode for "
+"\"Vertical Position\" option."
+msgstr ""
+
+#: includes/general-hooks.php:1727
+msgid "Background Color"
+msgstr ""
+
+#: includes/general-hooks.php:1728
+msgid "Specifies a background color for title bar."
+msgstr ""
+
+#: includes/general-hooks.php:1763
+msgid "Background Size"
+msgstr ""
+
+#: includes/general-hooks.php:1764
+msgid "Specifies the background size."
+msgstr ""
+
+#: includes/general-hooks.php:1796
+msgid "Auto"
+msgstr ""
+
+#: includes/general-hooks.php:1800
+msgid "Contain"
+msgstr ""
+
+#: includes/general-hooks.php:1804
+msgid "Cover"
+msgstr ""
+
+#: includes/general-hooks.php:1812
+msgid "Background Image"
+msgstr ""
+
+#: includes/general-hooks.php:1813
+msgid "Specifies a background image for title bar."
+msgstr ""
+
+#: includes/general-hooks.php:1847
+msgid "Background Video MP4"
+msgstr ""
+
+#: includes/general-hooks.php:1848 includes/general-hooks.php:1883
+#: includes/general-hooks.php:1918
+msgid ""
+"You can upload custom video for title background</br>Note: if you set "
+"custom image, default image backgrounds will be ignored."
+msgstr ""
+
+#: includes/general-hooks.php:1882
+msgid "Background Video Ogg"
+msgstr ""
+
+#: includes/general-hooks.php:1917
+msgid "Background Video WebM"
+msgstr ""
+
+#: includes/general-hooks.php:1952
+msgid "Display Post Title"
+msgstr ""
+
+#: includes/general-hooks.php:1953
+msgid "Enable it to show the main title above post content."
+msgstr ""
+
+#: includes/general-hooks.php:1975
+msgid "Preview News Page"
+msgstr ""
+
+#: includes/general-hooks.php:1980
+msgid "Custom Page For Archive"
+msgstr ""
+
+#: includes/general-hooks.php:1981
+msgid "Enable this option to select custom page for archive page"
+msgstr ""
+
+#: includes/general-hooks.php:1990
+msgid "Select Page"
+msgstr ""
+
+#: includes/general-hooks.php:2006
+msgid "News Index Page Template"
+msgstr ""
+
+#: includes/general-hooks.php:2027
+msgid "Template 1"
+msgstr ""
+
+#: includes/general-hooks.php:2037
+msgid "News Sidebar Position"
+msgstr ""
+
+#: includes/general-hooks.php:2078
+msgid "News Sidebar Style"
+msgstr ""
+
+#: includes/general-hooks.php:2110
+msgid "Show Big Post"
+msgstr ""
+
+#: includes/general-hooks.php:2111
+msgid "Show a big post in start of page."
+msgstr ""
+
+#: includes/general-hooks.php:2127
+msgid "Show Big Post Image"
+msgstr ""
+
+#: includes/general-hooks.php:2128
+msgid "Show image for first post"
+msgstr ""
+
+#: includes/general-hooks.php:2151 includes/general-hooks.php:2152
+msgid "Exclude news without featured image."
+msgstr ""
+
+#: includes/general-hooks.php:2168
+msgid "Show Image"
+msgstr ""
+
+#: includes/general-hooks.php:2169
+msgid "Show Image for posts"
+msgstr ""
+
+#: includes/general-hooks.php:2185
+msgid "Show Title"
+msgstr ""
+
+#: includes/general-hooks.php:2186
+msgid "Show title for posts"
+msgstr ""
+
+#: includes/general-hooks.php:2202
+msgid "Show Info"
+msgstr ""
+
+#: includes/general-hooks.php:2203
+msgid "Show info for posts"
+msgstr ""
+
+#: includes/general-hooks.php:2219
+msgid "Post Info Position"
+msgstr ""
+
+#: includes/general-hooks.php:2220
+msgid "Show post info before or after post title."
+msgstr ""
+
+#: includes/general-hooks.php:2247
+msgid "Show Date"
+msgstr ""
+
+#: includes/general-hooks.php:2248
+msgid "Show date for posts"
+msgstr ""
+
+#: includes/general-hooks.php:2271
+msgid "Show Author"
+msgstr ""
+
+#: includes/general-hooks.php:2272
+msgid "Show author of posts"
+msgstr ""
+
+#: includes/general-hooks.php:2295
+msgid "Show Categories"
+msgstr ""
+
+#: includes/general-hooks.php:2296
+msgid "Show categories of posts"
+msgstr ""
+
+#: includes/general-hooks.php:2345
+msgid "News Category & tag"
+msgstr ""
+
+#: includes/general-hooks.php:2346
+msgid "News Category & tag page Setting"
+msgstr ""
+
+#: includes/general-hooks.php:2350
+msgid "Taxonomy Page Sidebar Position"
+msgstr ""
+
+#: includes/general-hooks.php:2391
+msgid "Sidebar Style"
+msgstr ""
+
+#: includes/general-hooks.php:2392
+msgid "Specifies the style of sidebar on category & tag page."
+msgstr ""
+
+#: includes/general-hooks.php:2427 includes/general-hooks.php:2428
+msgid "Single News Typography"
+msgstr ""
+
+#: includes/general-hooks.php:2432 includes/general-hooks.php:2507
+msgid "Post Title"
+msgstr ""
+
+#: includes/general-hooks.php:2443 includes/general-hooks.php:2518
+msgid "Post Content"
+msgstr ""
+
+#: includes/general-hooks.php:2454 includes/general-hooks.php:2529
+msgid "Post info"
+msgstr ""
+
+#: includes/general-hooks.php:2465 includes/general-hooks.php:2540
+msgid "Post info terms"
+msgstr ""
+
+#: includes/general-hooks.php:2476
+msgid "Post Meta"
+msgstr ""
+
+#: includes/general-hooks.php:2487
+msgid "Post Meta Terms"
+msgstr ""
+
+#: includes/general-hooks.php:2502 includes/general-hooks.php:2503
+msgid "Archive News Typography"
+msgstr ""
+
+#: includes/general-hooks.php:2569
+msgid "Big Post Content"
+msgstr ""
+
+#: includes/general-hooks.php:2587
+msgid "Big Post info"
+msgstr ""
+
+#: includes/general-hooks.php:2605
+msgid "Big Post info terms"
+msgstr ""
+
+#: includes/general-hooks.php:2657
+msgid "News Options"
+msgstr ""
+
+#: includes/general-hooks.php:2702
+msgid "Select Category Color:"
+msgstr ""
+
+#: includes/general-hooks.php:2729
+msgid "Select Category Color"
+msgstr ""
+
+#: includes/general-hooks.php:2839
+msgid "Like"
+msgstr ""
+
+#: public/includes/templates-news.php:310
+#: public/includes/templates-news.php:597
+#: public/templates/theme-parts/entry/single-news.php:80
+msgid "View all posts in "
+msgstr ""
+
+#: public/includes/templates-news.php:317
+#: public/includes/templates-news.php:372
+#: public/includes/templates-news.php:605
+#: public/includes/templates-news.php:664
+#: public/templates/theme-parts/entry/news.php:47
+#: public/templates/theme-parts/entry/single-news.php:53
+msgid "by"
+msgstr ""
+
+#: public/includes/templates-news.php:322
+#: public/includes/templates-news.php:376
+#: public/includes/templates-news.php:610
+#: public/includes/templates-news.php:668
+#: public/templates/theme-parts/entry/news.php:52
+#: public/templates/theme-parts/entry/single-news.php:58
+#: public/templates/theme-parts/entry/single-news.php:186
+msgid "View all posts by %s"
+msgstr ""
+
+#: public/includes/templates-news.php:330
+#: public/includes/templates-news.php:618
+#: public/templates/theme-parts/entry/news.php:57
+#: public/templates/theme-parts/entry/single-news.php:68
+msgid "with"
+msgstr ""
+
+#: public/includes/templates-news.php:331
+#: public/includes/templates-news.php:619
+#: public/templates/theme-parts/entry/news.php:58
+#: public/templates/theme-parts/entry/single-news.php:69
+msgid "No Comment"
+msgstr ""
+
+#: public/includes/templates-news.php:331
+#: public/includes/templates-news.php:619
+#: public/templates/theme-parts/entry/news.php:58
+#: public/templates/theme-parts/entry/single-news.php:69
+msgid "One Comment"
+msgstr ""
+
+#: public/includes/templates-news.php:331
+#: public/includes/templates-news.php:619
+#: public/templates/theme-parts/entry/news.php:58
+#: public/templates/theme-parts/entry/single-news.php:69
+msgid "% Comments"
+msgstr ""
+
+#: public/includes/templates-news.php:335
+#: public/includes/templates-news.php:623
+#: public/templates/theme-parts/entry/news.php:70
+#: public/templates/theme-parts/entry/single-news.php:86
+msgid "Edit"
+msgstr ""
+
+#: public/includes/templates-news.php:473
+msgid "all"
+msgstr ""
+
+#: public/templates/theme-parts/entry/news.php:65
+msgid "View all news in "
+msgstr ""
+
+#: public/templates/theme-parts/entry/news.php:83
+msgid "Continue Reading"
+msgstr ""
+
+#: public/templates/theme-parts/entry/news.php:92
+#: public/templates/theme-parts/entry/single-news.php:105
+msgid "Pages:"
+msgstr ""
+
+#: public/templates/theme-parts/entry/single-news.php:101
+msgid "Continue reading"
+msgstr ""
+
+#: public/templates/theme-parts/entry/single-news.php:111
+msgid "Tags: "
+msgstr ""
+
+#: public/templates/theme-parts/entry/single-news.php:121
+msgid "Tags: No tags"
+msgstr ""
+
+#: public/templates/theme-parts/entry/single-news.php:124
+msgid "Share"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://averta.net/phlox/wordpress-theme/?utm_source=auxin-the-news"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Publish news easily and beautifully with Phlox theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "averta"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://averta.net"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:49
+msgctxt "auxin-news"
+msgid "News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:51
+msgctxt "Admin menu name"
+msgid "News"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:110
+msgctxt "news-category admin menu name"
+msgid "Categories"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:158
+msgctxt "News-tag admin menu name"
+msgid "Tags"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:214
+msgctxt "Title column at News  edit columns"
+msgid "News Title"
+msgstr ""
+
+#: includes/classes/class-auxin-post-type-news.php:215
+msgctxt "Category column at News edit columns"
+msgid "Categories"
+msgstr ""

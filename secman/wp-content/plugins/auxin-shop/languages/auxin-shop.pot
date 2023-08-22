@@ -1,0 +1,3202 @@
+# Copyright (C) 2023 averta
+# This file is distributed under the same license as the Phlox Shop plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Phlox Shop 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/auxin-shop\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-02T11:17:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: auxin-shop\n"
+
+#. Plugin Name of the plugin
+#: auxin-shop.php:87
+msgid "Phlox Shop"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://phlox.pro/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Make a shop in easiest way using phlox theme."
+msgstr ""
+
+#. Author of the plugin
+msgid "averta"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://averta.net"
+msgstr ""
+
+#: admin/includes/admin-functions.php:13
+msgid "Add"
+msgstr ""
+
+#: admin/includes/admin-functions.php:15
+msgid "Meta Name"
+msgstr ""
+
+#: admin/includes/admin-functions.php:16
+msgid "Meta Value"
+msgstr ""
+
+#: admin/includes/admin-functions.php:17
+msgid "Delete"
+msgstr ""
+
+#: admin/includes/admin-hooks.php:26
+msgid "Product Options"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:27
+#: includes/elements/elementor/widgets/advanced-recent-products.php:994
+#: includes/elements/elementor/widgets/products-parallax.php:920
+#: includes/elements/elementor/widgets/recent-products-carousel.php:869
+msgid "Product Info"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:31
+msgid "Product Template"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:32
+#: includes/general-hooks.php:457
+msgid "Specifies the single product layout."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:32
+#: includes/general-hooks.php:457
+msgid "%s Note%s: In order to use of \"Slider\", \"Wide\" & \"Centered wide\" templates, you are expected to install and activate \"Master Slider\" plugin."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:37
+#: admin/includes/metaboxes/metabox-fields-product-info.php:81
+#: admin/includes/metaboxes/metabox-fields-product-info.php:101
+#: admin/includes/metaboxes/metabox-fields-product-info.php:135
+#: admin/includes/metaboxes/metabox-fields-product-info.php:182
+#: admin/includes/metaboxes/metabox-fields-product-info.php:207
+#: admin/includes/metaboxes/metabox-fields-product-info.php:233
+#: admin/includes/metaboxes/metabox-fields-product-info.php:252
+#: admin/includes/metaboxes/metabox-fields-product-info.php:267
+#: admin/includes/metaboxes/metabox-fields-product-info.php:324
+#: admin/includes/metaboxes/metabox-fields-product-info.php:337
+#: admin/includes/metaboxes/metabox-fields-product-info.php:350
+#: admin/includes/metaboxes/metabox-fields-product-info.php:363
+#: admin/includes/metaboxes/metabox-fields-product-info.php:376
+#: admin/includes/metaboxes/metabox-fields-product-info.php:389
+#: admin/includes/metaboxes/metabox-fields-product-related.php:36
+#: admin/includes/metaboxes/metabox-fields-product-related.php:69
+#: admin/includes/metaboxes/metabox-fields-product-related.php:90
+#: admin/includes/metaboxes/metabox-fields-product-related.php:114
+#: admin/includes/metaboxes/metabox-fields-product-related.php:138
+#: admin/includes/metaboxes/metabox-fields-product-related.php:158
+#: admin/includes/metaboxes/metabox-fields-product-related.php:178
+#: admin/includes/metaboxes/metabox-fields-product-related.php:198
+#: admin/includes/metaboxes/metabox-fields-product-related.php:218
+#: admin/includes/metaboxes/metabox-fields-product-related.php:238
+msgid "Theme Default"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:41
+#: includes/general-hooks.php:467
+msgid "Slider"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:45
+#: includes/general-hooks.php:471
+msgid "Grid gallery"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:49
+#: includes/general-hooks.php:475
+msgid "Stack gallery"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:53
+#: includes/general-hooks.php:479
+msgid "Sticky gallery"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:57
+#: includes/general-hooks.php:483
+msgid "Wide"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:61
+#: includes/general-hooks.php:487
+msgid "Centered wide"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:69
+#: includes/general-hooks.php:497
+msgid "Use default WooCommerce Slider"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:70
+#: includes/general-hooks.php:498
+msgid "Enable this to use default WooCommerce Slider instead of Master Slider as product images."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:82
+#: admin/includes/metaboxes/metabox-fields-product-info.php:253
+#: admin/includes/metaboxes/metabox-fields-product-info.php:268
+#: admin/includes/metaboxes/metabox-fields-product-info.php:325
+#: admin/includes/metaboxes/metabox-fields-product-info.php:338
+#: admin/includes/metaboxes/metabox-fields-product-info.php:351
+#: admin/includes/metaboxes/metabox-fields-product-info.php:364
+#: admin/includes/metaboxes/metabox-fields-product-info.php:377
+#: admin/includes/metaboxes/metabox-fields-product-info.php:390
+#: admin/includes/metaboxes/metabox-fields-product-related.php:37
+#: admin/includes/metaboxes/metabox-fields-product-related.php:139
+#: admin/includes/metaboxes/metabox-fields-product-related.php:159
+#: admin/includes/metaboxes/metabox-fields-product-related.php:179
+#: admin/includes/metaboxes/metabox-fields-product-related.php:199
+#: admin/includes/metaboxes/metabox-fields-product-related.php:219
+#: admin/includes/metaboxes/metabox-fields-product-related.php:239
+msgid "Yes"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:83
+#: admin/includes/metaboxes/metabox-fields-product-info.php:254
+#: admin/includes/metaboxes/metabox-fields-product-info.php:269
+#: admin/includes/metaboxes/metabox-fields-product-info.php:326
+#: admin/includes/metaboxes/metabox-fields-product-info.php:339
+#: admin/includes/metaboxes/metabox-fields-product-info.php:352
+#: admin/includes/metaboxes/metabox-fields-product-info.php:365
+#: admin/includes/metaboxes/metabox-fields-product-info.php:378
+#: admin/includes/metaboxes/metabox-fields-product-info.php:391
+#: admin/includes/metaboxes/metabox-fields-product-related.php:38
+#: admin/includes/metaboxes/metabox-fields-product-related.php:140
+#: admin/includes/metaboxes/metabox-fields-product-related.php:160
+#: admin/includes/metaboxes/metabox-fields-product-related.php:180
+#: admin/includes/metaboxes/metabox-fields-product-related.php:200
+#: admin/includes/metaboxes/metabox-fields-product-related.php:220
+#: admin/includes/metaboxes/metabox-fields-product-related.php:240
+msgid "No"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:89
+#: includes/general-hooks.php:707
+msgid "Grid/Masonry template"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:90
+#: includes/general-hooks.php:708
+msgid "Choose your grid/masonry template."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:105
+#: includes/general-hooks.php:721
+msgid "Grid"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:109
+#: includes/general-hooks.php:725
+msgid "Masonry"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:118
+#: includes/general-hooks.php:734
+msgid "Image Aspect Ratio"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:136
+#: includes/elements/advanced-recent-products.php:127
+#: includes/elements/elementor/widgets/advanced-recent-products.php:346
+#: includes/elements/elementor/widgets/products-parallax.php:288
+#: includes/elements/elementor/widgets/recent-products-carousel.php:342
+#: includes/elements/products-parallax.php:108
+#: includes/elements/recent-products-carousel.php:122
+#: includes/general-hooks.php:81
+#: includes/general-hooks.php:752
+#: includes/general-hooks.php:2455
+msgid "Horizontal 4:3"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:137
+#: includes/elements/advanced-recent-products.php:128
+#: includes/elements/elementor/widgets/advanced-recent-products.php:347
+#: includes/elements/elementor/widgets/products-parallax.php:289
+#: includes/elements/elementor/widgets/recent-products-carousel.php:343
+#: includes/elements/products-parallax.php:109
+#: includes/elements/recent-products-carousel.php:123
+#: includes/general-hooks.php:82
+#: includes/general-hooks.php:753
+#: includes/general-hooks.php:2456
+msgid "Horizontal 16:9"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:138
+#: includes/elements/advanced-recent-products.php:129
+#: includes/elements/elementor/widgets/advanced-recent-products.php:348
+#: includes/elements/elementor/widgets/products-parallax.php:290
+#: includes/elements/elementor/widgets/recent-products-carousel.php:344
+#: includes/elements/products-parallax.php:110
+#: includes/elements/recent-products-carousel.php:124
+#: includes/general-hooks.php:83
+#: includes/general-hooks.php:754
+#: includes/general-hooks.php:2457
+msgid "Square 1:1"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:139
+#: includes/elements/advanced-recent-products.php:131
+#: includes/elements/elementor/widgets/advanced-recent-products.php:350
+#: includes/elements/elementor/widgets/products-parallax.php:291
+#: includes/elements/elementor/widgets/recent-products-carousel.php:345
+#: includes/elements/products-parallax.php:111
+#: includes/elements/recent-products-carousel.php:125
+#: includes/general-hooks.php:84
+#: includes/general-hooks.php:755
+#: includes/general-hooks.php:2458
+msgid "Vertical 3:4"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:145
+#: includes/general-hooks.php:762
+msgid "Space"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:146
+msgid "Specifies space between items in pixels. Leave empty to use theme default"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:165
+#: admin/includes/metaboxes/metabox-fields-product-related.php:78
+#: includes/general-hooks.php:784
+#: includes/general-hooks.php:2421
+msgid "Number of Columns"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:190
+#: includes/general-hooks.php:810
+msgid "Number of Columns in Tablet"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:208
+#: includes/elements/elementor/widgets/advanced-recent-products.php:153
+#: includes/elements/elementor/widgets/advanced-recent-products.php:171
+#: includes/elements/elementor/widgets/recent-products-carousel.php:151
+msgid "Inherited from larger"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:216
+#: includes/general-hooks.php:837
+msgid "Number of Columns in Mobile"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:240
+#: includes/general-hooks.php:862
+msgid "Sticky Side Area"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:241
+#: includes/general-hooks.php:863
+msgid "Enable it to stick the side area on page while scrolling.."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:260
+msgid "Display Next & Previous portfolios"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:274
+#: includes/general-hooks.php:923
+msgid "Skin for Next & Previous Links"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:275
+#: includes/general-hooks.php:924
+msgid "Specifies the skin for next and previous navigation block."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:286
+#: includes/general-hooks.php:1287
+#: includes/general-hooks.php:2454
+#: includes/woo-functions.php:67
+#: public/templates/woocommerce/loop/orderby.php:23
+msgid "Default"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:290
+#: includes/general-hooks.php:937
+msgid "Minimal (default)"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:294
+#: includes/general-hooks.php:941
+msgid "Thumbnail with Arrow"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:298
+#: includes/general-hooks.php:945
+msgid "Thumbnail without Arrow"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:302
+#: includes/general-hooks.php:949
+msgid "Navigation with Light Background"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:306
+#: includes/general-hooks.php:953
+msgid "Navigation with Dark Background"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:310
+#: includes/general-hooks.php:957
+msgid "Sticky Thumbnail with Arrow"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:319
+#: includes/general-hooks.php:966
+msgid "Display Single Star Ratings"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:320
+#: includes/general-hooks.php:967
+msgid "Enable it to display star ratings section in single product."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:332
+#: includes/general-hooks.php:2716
+msgid "Display Single Product Wishlist"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:333
+#: includes/general-hooks.php:2717
+msgid "Enable it to display wishlist section in single product."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:345
+#: includes/general-hooks.php:977
+msgid "Display Single Product Share"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:346
+#: includes/general-hooks.php:978
+msgid "Enable it to display Share section in single product."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:358
+#: includes/general-hooks.php:1130
+msgid "Display Single Product SKU"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:359
+#: includes/general-hooks.php:1131
+msgid "Enable it to display SKU section in single product."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:371
+#: includes/general-hooks.php:1141
+msgid "Display Single Product Categories"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:372
+#: includes/general-hooks.php:1142
+msgid "Enable it to display category section in single product."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:384
+#: includes/general-hooks.php:1152
+msgid "Display Single Product Tags"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:385
+#: includes/general-hooks.php:1153
+msgid "Enable it to display Tag section in single product."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:397
+msgid "Custom Featured Color?"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:398
+msgid "By default custom feature color of all products are the same as the color defined in theme options. You have to enable this option if you want to define custom feature color for this product."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:405
+msgid "Featured Color"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-info.php:406
+msgid "Custom featured color for this post."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:27
+#: includes/general-hooks.php:2354
+#: includes/general-hooks.php:2384
+#: public/templates/woocommerce/single-product/related.php:37
+msgid "Related Products"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:31
+#: includes/general-hooks.php:2359
+msgid "Display Related Products"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:32
+#: includes/general-hooks.php:2360
+msgid "Enable it to display related products section on single product page."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:44
+#: includes/general-hooks.php:2371
+msgid "Label of Related Section"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:45
+msgid "Specifies the label of related items section. Leave empty to use theme default."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:58
+#: includes/general-hooks.php:2400
+msgid "Related Items Type"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:59
+#: includes/general-hooks.php:2401
+msgid "Specifies the appearance type for related product element."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:97
+#: includes/general-hooks.php:2465
+msgid "Number of carousel pages"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:121
+#: includes/general-hooks.php:2490
+msgid "Auto Play Carousel"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:146
+#: includes/general-hooks.php:2539
+msgid "Align Center"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:147
+#: includes/general-hooks.php:2540
+msgid "Enable it to make related products section text center."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:166
+#: includes/general-hooks.php:2557
+msgid "Full Width Related Section"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:167
+#: includes/general-hooks.php:2558
+msgid "Enable it to make related products section full width."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:186
+#: includes/general-hooks.php:2575
+msgid "Snap Related Items"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:187
+#: includes/general-hooks.php:2576
+msgid "Enable it to remove space between related product items."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:206
+#: includes/general-hooks.php:324
+#: includes/general-hooks.php:2593
+msgid "Display Product Categories"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:207
+#: includes/general-hooks.php:2594
+msgid "Enable it to display the categories of each product item in related products section."
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:226
+#: includes/general-hooks.php:2611
+msgid "Display Product Star Review"
+msgstr ""
+
+#: admin/includes/metaboxes/metabox-fields-product-related.php:227
+#: includes/general-hooks.php:2612
+msgid "Enable it to display the star reviews of each product item in related products section."
+msgstr ""
+
+#: auxin-shop.php:54
+msgid "Phlox Core Elements"
+msgstr ""
+
+#: auxin-shop.php:62
+msgid "WooCommerce"
+msgstr ""
+
+#: auxin-shop.php:73
+msgid "Phlox Pro"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:74
+msgid "%s plugin has been disabled automatically due to following reason:"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:97
+msgid "Note for admin"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:229
+msgid "%s plugin is required in order to use this plugin. Please install and activate the plugin."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:230
+#: includes/classes/class-auxin-plugin-requirements.php:331
+#: includes/classes/class-auxin-plugin-requirements.php:356
+msgid "How to upgrade"
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:250
+msgid "The plugin requires %s plugin version %s or higher (current version is %s). Please update it to the latest version."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:330
+msgid "%s theme requires %s plugin version %s or higher in order to function property. Your current plugin version is %s, please update it to latest version."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:355
+msgid "The plugin requires %s theme version %s or higher in order to function property. Your current theme version is %s, please %s update to latest version %s."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:367
+msgid "%s path while checking the availability of theme not found."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:372
+msgid "%s function callback while checking the availability of theme not found."
+msgstr ""
+
+#: includes/classes/class-auxin-plugin-requirements.php:409
+msgid "PHP version %s or above is required for this plugin while your the current PHP version is %s."
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:48
+#: includes/general-hooks.php:2701
+msgid "Wishlist"
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:76
+#: includes/classes/wishlist/class-auxshp-wishlist.php:90
+#: public/templates/woocommerce/single-product/wishlist.php:39
+msgid "Remove from wishlist"
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:79
+#: includes/classes/wishlist/class-auxshp-wishlist.php:93
+#: includes/classes/wishlist/class-auxshp-wishlist.php:118
+#: includes/classes/wishlist/class-auxshp-wishlist.php:134
+msgid "Sorry! An error accrued"
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:115
+#: includes/classes/wishlist/class-auxshp-wishlist.php:131
+#: public/templates/woocommerce/single-product/wishlist.php:35
+msgid "Add to wishlist"
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:115
+#: includes/classes/wishlist/class-auxshp-wishlist.php:131
+#: includes/classes/wishlist/class-auxshp-wishlist.php:200
+msgid "Your wishlist is empty."
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:212
+#: includes/general-hooks.php:179
+#: public/templates/woocommerce/cart/cart.php:40
+#: public/templates/woocommerce/cart/cart.php:94
+#: public/templates/woocommerce/checkout/review-order.php:31
+msgid "Product"
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:214
+#: includes/elements/elementor/widgets/advanced-recent-products.php:909
+#: includes/elements/elementor/widgets/products-parallax.php:816
+#: includes/elements/elementor/widgets/recent-products-carousel.php:765
+#: includes/general-hooks.php:2913
+#: public/templates/woocommerce/cart/cart.php:42
+#: public/templates/woocommerce/cart/cart.php:127
+msgid "Price"
+msgstr ""
+
+#: includes/classes/wishlist/class-auxshp-wishlist.php:215
+msgid "Stock Status"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:15
+#: includes/elements/elementor/widgets/advanced-recent-products.php:57
+msgid "Advance Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:18
+msgid "a Advance Widget for Display Your Store's Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:40
+#: includes/elements/elementor/widgets/advanced-recent-products.php:454
+msgid "Products Type"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:47
+#: includes/elements/elementor/widgets/advanced-recent-products.php:458
+msgid "Recent Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:48
+#: includes/elements/elementor/widgets/advanced-recent-products.php:459
+msgid "Featured Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:49
+#: includes/elements/elementor/widgets/advanced-recent-products.php:460
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:50
+#: includes/elements/elementor/widgets/advanced-recent-products.php:461
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:51
+#: includes/elements/elementor/widgets/advanced-recent-products.php:462
+msgid "On Sale Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:52
+#: includes/elements/elementor/widgets/advanced-recent-products.php:463
+msgid "Deal Products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:61
+#: includes/elements/advanced-recent-products.php:165
+#: includes/elements/elementor/widgets/advanced-recent-products.php:502
+#: includes/elements/elementor/widgets/advanced-recent-products.php:824
+#: includes/elements/elementor/widgets/products-parallax.php:400
+#: includes/elements/elementor/widgets/products-parallax.php:712
+#: includes/elements/elementor/widgets/recent-products-carousel.php:591
+#: includes/elements/elementor/widgets/recent-products-carousel.php:661
+#: includes/elements/products-parallax.php:41
+#: includes/elements/products-parallax.php:147
+#: includes/elements/recent-products-carousel.php:41
+#: includes/elements/recent-products-carousel.php:161
+#: includes/general-hooks.php:2902
+#: includes/general-hooks.php:3098
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:73
+msgid "Title"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:62
+msgid "Advance products title, leave it empty if you don`t need title."
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:75
+#: includes/elements/products-parallax.php:55
+#: includes/elements/recent-products-carousel.php:55
+msgid "Subtitle"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:76
+#: includes/elements/products-parallax.php:56
+#: includes/elements/recent-products-carousel.php:56
+msgid "Recent products subtitle, leave it empty if you don`t need title."
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:89
+#: includes/elements/elementor/widgets/advanced-recent-products.php:472
+#: includes/elements/elementor/widgets/products-parallax.php:358
+#: includes/elements/elementor/widgets/recent-products-carousel.php:548
+#: includes/elements/products-parallax.php:69
+#: includes/elements/recent-products-carousel.php:69
+msgid "Categories"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:90
+#: includes/elements/elementor/widgets/products-parallax.php:359
+#: includes/elements/elementor/widgets/recent-products-carousel.php:549
+#: includes/elements/products-parallax.php:70
+#: includes/elements/recent-products-carousel.php:70
+msgid "Specifies a category that you want to show posts from it."
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:105
+#: includes/elements/elementor/widgets/advanced-recent-products.php:258
+#: includes/elements/elementor/widgets/products-parallax.php:370
+#: includes/elements/recent-products-carousel.php:85
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:115
+#: includes/elements/elementor/widgets/advanced-recent-products.php:447
+#: includes/elements/elementor/widgets/products-parallax.php:351
+#: includes/elements/elementor/widgets/recent-products-carousel.php:541
+msgid "Query"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:119
+#: includes/elements/elementor/widgets/advanced-recent-products.php:342
+#: includes/elements/elementor/widgets/products-parallax.php:284
+#: includes/elements/elementor/widgets/recent-products-carousel.php:338
+#: includes/elements/products-parallax.php:100
+#: includes/elements/recent-products-carousel.php:114
+#: includes/general-hooks.php:2441
+msgid "Image aspect ratio"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:130
+#: includes/elements/elementor/widgets/advanced-recent-products.php:349
+msgid "Vertical 1.15:1"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:132
+#: includes/elements/elementor/widgets/advanced-recent-products.php:351
+#: includes/elements/elementor/widgets/products-parallax.php:292
+#: includes/elements/elementor/widgets/recent-products-carousel.php:346
+#: includes/elements/products-parallax.php:112
+#: includes/elements/recent-products-carousel.php:126
+msgid "Vertical 2:3"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:142
+#: includes/elements/products-parallax.php:124
+#: includes/elements/recent-products-carousel.php:138
+msgid "Exclude posts without media"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:155
+#: includes/elements/elementor/widgets/advanced-recent-products.php:496
+#: includes/elements/elementor/widgets/products-parallax.php:394
+#: includes/elements/elementor/widgets/recent-products-carousel.php:585
+#: includes/elements/products-parallax.php:137
+#: includes/elements/recent-products-carousel.php:151
+msgid "Order by"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:163
+#: includes/elements/elementor/widgets/advanced-recent-products.php:500
+#: includes/elements/elementor/widgets/products-parallax.php:398
+#: includes/elements/elementor/widgets/recent-products-carousel.php:589
+#: includes/elements/products-parallax.php:145
+#: includes/elements/recent-products-carousel.php:159
+msgid "Date"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:164
+#: includes/elements/elementor/widgets/advanced-recent-products.php:501
+#: includes/elements/elementor/widgets/products-parallax.php:399
+#: includes/elements/elementor/widgets/recent-products-carousel.php:590
+#: includes/elements/products-parallax.php:146
+#: includes/elements/recent-products-carousel.php:160
+msgid "Menu Order"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:166
+#: includes/elements/elementor/widgets/advanced-recent-products.php:503
+#: includes/elements/elementor/widgets/products-parallax.php:401
+#: includes/elements/elementor/widgets/recent-products-carousel.php:592
+#: includes/elements/products-parallax.php:148
+#: includes/elements/recent-products-carousel.php:162
+msgid "ID"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:167
+#: includes/elements/elementor/widgets/advanced-recent-products.php:504
+#: includes/elements/elementor/widgets/products-parallax.php:402
+#: includes/elements/elementor/widgets/recent-products-carousel.php:593
+#: includes/elements/products-parallax.php:149
+#: includes/elements/recent-products-carousel.php:163
+msgid "Random"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:168
+#: includes/elements/elementor/widgets/advanced-recent-products.php:505
+#: includes/elements/elementor/widgets/products-parallax.php:403
+#: includes/elements/elementor/widgets/recent-products-carousel.php:594
+#: includes/elements/products-parallax.php:150
+#: includes/elements/recent-products-carousel.php:164
+msgid "Comments"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:169
+#: includes/elements/elementor/widgets/advanced-recent-products.php:506
+#: includes/elements/elementor/widgets/products-parallax.php:404
+#: includes/elements/elementor/widgets/recent-products-carousel.php:595
+#: includes/elements/products-parallax.php:151
+#: includes/elements/recent-products-carousel.php:165
+msgid "Date Modified"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:170
+#: includes/elements/elementor/widgets/advanced-recent-products.php:507
+#: includes/elements/elementor/widgets/products-parallax.php:405
+#: includes/elements/elementor/widgets/recent-products-carousel.php:596
+#: includes/elements/products-parallax.php:152
+#: includes/elements/recent-products-carousel.php:166
+msgid "Author"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:171
+#: includes/elements/elementor/widgets/advanced-recent-products.php:508
+#: includes/elements/elementor/widgets/products-parallax.php:406
+#: includes/elements/elementor/widgets/recent-products-carousel.php:597
+#: includes/elements/products-parallax.php:153
+#: includes/elements/recent-products-carousel.php:167
+msgid "Inserted Post IDs"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:180
+#: includes/elements/elementor/widgets/advanced-recent-products.php:516
+#: includes/elements/elementor/widgets/products-parallax.php:414
+#: includes/elements/elementor/widgets/recent-products-carousel.php:605
+#: includes/elements/products-parallax.php:162
+#: includes/elements/recent-products-carousel.php:176
+msgid "Order"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:188
+#: includes/elements/elementor/widgets/advanced-recent-products.php:520
+#: includes/elements/elementor/widgets/products-parallax.php:418
+#: includes/elements/elementor/widgets/recent-products-carousel.php:609
+#: includes/elements/products-parallax.php:170
+#: includes/elements/recent-products-carousel.php:184
+msgid "Descending"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:189
+#: includes/elements/elementor/widgets/advanced-recent-products.php:521
+#: includes/elements/elementor/widgets/products-parallax.php:419
+#: includes/elements/elementor/widgets/recent-products-carousel.php:610
+#: includes/elements/products-parallax.php:171
+#: includes/elements/recent-products-carousel.php:185
+msgid "Ascending"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:198
+#: includes/elements/elementor/widgets/advanced-recent-products.php:529
+#: includes/elements/elementor/widgets/products-parallax.php:427
+#: includes/elements/elementor/widgets/recent-products-carousel.php:618
+#: includes/elements/products-parallax.php:180
+#: includes/elements/recent-products-carousel.php:194
+msgid "Only products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:199
+#: includes/elements/elementor/widgets/advanced-recent-products.php:530
+#: includes/elements/elementor/widgets/products-parallax.php:428
+#: includes/elements/elementor/widgets/recent-products-carousel.php:619
+#: includes/elements/products-parallax.php:181
+#: includes/elements/recent-products-carousel.php:195
+msgid "If you intend to display ONLY specific products, you should specify the products here. You have to insert the Products IDs that are separated by comma (eg. 53,34,87,25)."
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:212
+#: includes/elements/elementor/widgets/advanced-recent-products.php:538
+#: includes/elements/elementor/widgets/products-parallax.php:436
+#: includes/elements/elementor/widgets/recent-products-carousel.php:627
+#: includes/elements/products-parallax.php:194
+#: includes/elements/recent-products-carousel.php:208
+msgid "Include products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:213
+#: includes/elements/elementor/widgets/advanced-recent-products.php:539
+#: includes/elements/elementor/widgets/products-parallax.php:437
+#: includes/elements/elementor/widgets/recent-products-carousel.php:628
+#: includes/elements/products-parallax.php:195
+#: includes/elements/recent-products-carousel.php:209
+msgid "If you intend to include additional products, you should specify the products here. You have to insert the Products IDs that are separated by comma (eg. 53,34,87,25)"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:226
+#: includes/elements/elementor/widgets/advanced-recent-products.php:547
+#: includes/elements/elementor/widgets/products-parallax.php:445
+#: includes/elements/elementor/widgets/recent-products-carousel.php:636
+#: includes/elements/products-parallax.php:208
+#: includes/elements/recent-products-carousel.php:222
+msgid "Exclude products"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:227
+#: includes/elements/elementor/widgets/advanced-recent-products.php:548
+#: includes/elements/elementor/widgets/products-parallax.php:446
+#: includes/elements/elementor/widgets/recent-products-carousel.php:637
+#: includes/elements/products-parallax.php:209
+#: includes/elements/recent-products-carousel.php:223
+msgid "If you intend to exclude specific products from result, you should specify the products here. You have to insert the Products IDs that are separated by comma (eg. 53,34,87,25)"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:240
+#: includes/elements/elementor/widgets/advanced-recent-products.php:556
+#: includes/elements/elementor/widgets/products-parallax.php:454
+#: includes/elements/elementor/widgets/recent-products-carousel.php:645
+#: includes/elements/products-parallax.php:222
+#: includes/elements/recent-products-carousel.php:236
+msgid "Start offset"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:241
+#: includes/elements/elementor/widgets/advanced-recent-products.php:557
+#: includes/elements/elementor/widgets/products-parallax.php:455
+#: includes/elements/elementor/widgets/recent-products-carousel.php:646
+#: includes/elements/products-parallax.php:223
+#: includes/elements/recent-products-carousel.php:237
+msgid "Number of products to displace or pass over."
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:254
+#: includes/elements/products-parallax.php:236
+msgid "Show filters"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:267
+msgid "Show Sortlist"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:279
+#: includes/elements/products-parallax.php:248
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:72
+msgid "Filter by"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:280
+#: includes/elements/elementor/widgets/advanced-recent-products.php:579
+#: includes/elements/elementor/widgets/advanced-recent-products.php:746
+#: includes/elements/elementor/widgets/products-parallax.php:495
+#: includes/elements/elementor/widgets/products-parallax.php:513
+#: includes/elements/products-parallax.php:249
+msgid "Filter by categories or tags"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:286
+#: includes/elements/elementor/widgets/advanced-recent-products.php:583
+#: includes/elements/elementor/widgets/products-parallax.php:500
+#: includes/elements/products-parallax.php:255
+#: public/templates/woocommerce/single-product/meta.php:54
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/elements/advanced-recent-products.php:287
+#: includes/elements/elementor/widgets/advanced-recent-products.php:584
+#: includes/elements/elementor/widgets/products-parallax.php:501
+#: includes/elements/products-parallax.php:256
+#: public/templates/woocommerce/single-product/meta.php:65
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/elements/advanced-recent-products.php:298
+#: includes/elements/elementor/widgets/advanced-recent-products.php:745
+#: includes/elements/elementor/widgets/products-parallax.php:512
+#: includes/elements/products-parallax.php:267
+msgid "Filter Control Alignment"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:305
+#: includes/elements/elementor/widgets/advanced-recent-products.php:752
+#: includes/elements/elementor/widgets/products-parallax.php:519
+#: includes/elements/products-parallax.php:274
+#: includes/general-hooks.php:1905
+msgid "Left"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:309
+#: includes/elements/elementor/widgets/advanced-recent-products.php:756
+#: includes/elements/elementor/widgets/products-parallax.php:523
+#: includes/elements/elementor/widgets/recent-products-carousel.php:519
+#: includes/elements/products-parallax.php:278
+#: includes/elements/recent-products-carousel.php:506
+#: includes/general-hooks.php:1909
+msgid "Center"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:313
+#: includes/elements/elementor/widgets/advanced-recent-products.php:760
+#: includes/elements/elementor/widgets/products-parallax.php:527
+#: includes/elements/products-parallax.php:282
+#: includes/general-hooks.php:1913
+msgid "Right"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:326
+#: includes/elements/products-parallax.php:295
+msgid "Filter button style"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:327
+#: includes/elements/elementor/widgets/advanced-recent-products.php:775
+#: includes/elements/elementor/widgets/products-parallax.php:542
+#: includes/elements/products-parallax.php:296
+msgid "Style of filter buttons."
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:341
+#: includes/elements/elementor/widgets/advanced-recent-products.php:781
+#: includes/elements/elementor/widgets/products-parallax.php:548
+#: includes/elements/products-parallax.php:310
+msgid "Slide up"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:345
+#: includes/elements/elementor/widgets/advanced-recent-products.php:785
+#: includes/elements/elementor/widgets/products-parallax.php:552
+#: includes/elements/products-parallax.php:314
+msgid "Fill"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:349
+#: includes/elements/elementor/widgets/advanced-recent-products.php:789
+#: includes/elements/elementor/widgets/products-parallax.php:556
+#: includes/elements/products-parallax.php:318
+msgid "Cube"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:353
+#: includes/elements/elementor/widgets/advanced-recent-products.php:793
+#: includes/elements/elementor/widgets/products-parallax.php:560
+#: includes/elements/products-parallax.php:322
+msgid "Underline"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:357
+#: includes/elements/elementor/widgets/advanced-recent-products.php:797
+#: includes/elements/elementor/widgets/products-parallax.php:564
+#: includes/elements/products-parallax.php:326
+msgid "Float frame"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:361
+#: includes/elements/elementor/widgets/advanced-recent-products.php:801
+#: includes/elements/elementor/widgets/products-parallax.php:568
+#: includes/elements/products-parallax.php:330
+msgid "Borderd"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:365
+#: includes/elements/elementor/widgets/advanced-recent-products.php:805
+#: includes/elements/elementor/widgets/products-parallax.php:572
+#: includes/elements/products-parallax.php:334
+msgid "Float underline"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:369
+#: includes/elements/products-parallax.php:338
+msgid "DropDown"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:375
+#: includes/elements/elementor/widgets/advanced-recent-products.php:195
+#: includes/elements/elementor/widgets/products-parallax.php:176
+#: includes/elements/elementor/widgets/recent-products-carousel.php:187
+#: includes/elements/products-parallax.php:357
+#: includes/elements/recent-products-carousel.php:263
+msgid "Display products price"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:389
+msgid "Display products rating"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:403
+msgid "Display add to cart "
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:417
+msgid "Display wishlist "
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:431
+msgid "Display sale badge"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:445
+#: includes/elements/products-parallax.php:344
+#: includes/elements/recent-products-carousel.php:250
+msgid "Display product title"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:458
+#: includes/elements/elementor/widgets/advanced-recent-products.php:219
+#: includes/elements/elementor/widgets/products-parallax.php:200
+#: includes/elements/elementor/widgets/recent-products-carousel.php:209
+#: includes/elements/products-parallax.php:388
+#: includes/elements/recent-products-carousel.php:294
+msgid "Display Categories"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:471
+#: includes/elements/elementor/widgets/advanced-recent-products.php:329
+#: includes/elements/elementor/widgets/recent-products-carousel.php:275
+msgid "Display Quicklook"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:484
+#: includes/elements/products-parallax.php:472
+#: includes/elements/recent-products-carousel.php:352
+msgid "Number of columns"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:502
+#: includes/elements/products-parallax.php:504
+#: includes/elements/recent-products-carousel.php:370
+msgid "Number of columns in tablet size"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:521
+#: includes/elements/products-parallax.php:522
+#: includes/elements/recent-products-carousel.php:389
+msgid "Number of columns in phone size"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:556
+#: includes/elements/products-parallax.php:539
+#: includes/elements/recent-products-carousel.php:587
+msgid "Extra class name"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:557
+#: includes/elements/products-parallax.php:540
+#: includes/elements/recent-products-carousel.php:588
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:663
+msgid "popularity"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:664
+msgid "average rating"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:665
+msgid "newness"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:666
+msgid "price:low to high"
+msgstr ""
+
+#: includes/elements/advanced-recent-products.php:670
+msgid "price:high to low"
+msgstr ""
+
+#: includes/elements/elementor/dynamic-tags/products-url.php:19
+msgid "Products URL"
+msgstr ""
+
+#: includes/elements/elementor/dynamic-tags/products-url.php:40
+msgid "Product ID"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:139
+#: includes/elements/elementor/widgets/products-parallax.php:137
+#: includes/elements/elementor/widgets/recent-products-carousel.php:137
+msgid "Layout"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:147
+#: includes/elements/elementor/widgets/products-parallax.php:145
+#: includes/elements/elementor/widgets/recent-products-carousel.php:145
+msgid "Columns"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:167
+msgid "Rows"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:183
+#: includes/elements/elementor/widgets/products-parallax.php:164
+#: includes/elements/elementor/widgets/recent-products-carousel.php:176
+msgid "Display title"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:185
+#: includes/elements/elementor/widgets/advanced-recent-products.php:197
+#: includes/elements/elementor/widgets/advanced-recent-products.php:209
+#: includes/elements/elementor/widgets/advanced-recent-products.php:221
+#: includes/elements/elementor/widgets/advanced-recent-products.php:233
+#: includes/elements/elementor/widgets/advanced-recent-products.php:272
+#: includes/elements/elementor/widgets/advanced-recent-products.php:284
+#: includes/elements/elementor/widgets/advanced-recent-products.php:296
+#: includes/elements/elementor/widgets/advanced-recent-products.php:308
+#: includes/elements/elementor/widgets/advanced-recent-products.php:320
+#: includes/elements/elementor/widgets/advanced-recent-products.php:331
+#: includes/elements/elementor/widgets/advanced-recent-products.php:377
+#: includes/elements/elementor/widgets/advanced-recent-products.php:417
+#: includes/elements/elementor/widgets/advanced-recent-products.php:486
+#: includes/elements/elementor/widgets/advanced-recent-products.php:568
+#: includes/elements/elementor/widgets/advanced-recent-products.php:598
+#: includes/elements/elementor/widgets/advanced-recent-products.php:708
+#: includes/elements/elementor/widgets/products-parallax.php:166
+#: includes/elements/elementor/widgets/products-parallax.php:178
+#: includes/elements/elementor/widgets/products-parallax.php:190
+#: includes/elements/elementor/widgets/products-parallax.php:202
+#: includes/elements/elementor/widgets/products-parallax.php:214
+#: includes/elements/elementor/widgets/products-parallax.php:226
+#: includes/elements/elementor/widgets/products-parallax.php:238
+#: includes/elements/elementor/widgets/products-parallax.php:250
+#: includes/elements/elementor/widgets/products-parallax.php:262
+#: includes/elements/elementor/widgets/products-parallax.php:274
+#: includes/elements/elementor/widgets/products-parallax.php:305
+#: includes/elements/elementor/widgets/products-parallax.php:384
+#: includes/elements/elementor/widgets/products-parallax.php:484
+#: includes/elements/elementor/widgets/recent-products-carousel.php:178
+#: includes/elements/elementor/widgets/recent-products-carousel.php:189
+#: includes/elements/elementor/widgets/recent-products-carousel.php:200
+#: includes/elements/elementor/widgets/recent-products-carousel.php:211
+#: includes/elements/elementor/widgets/recent-products-carousel.php:222
+#: includes/elements/elementor/widgets/recent-products-carousel.php:233
+#: includes/elements/elementor/widgets/recent-products-carousel.php:244
+#: includes/elements/elementor/widgets/recent-products-carousel.php:255
+#: includes/elements/elementor/widgets/recent-products-carousel.php:266
+#: includes/elements/elementor/widgets/recent-products-carousel.php:277
+#: includes/elements/elementor/widgets/recent-products-carousel.php:290
+#: includes/elements/elementor/widgets/recent-products-carousel.php:301
+#: includes/elements/elementor/widgets/recent-products-carousel.php:328
+#: includes/elements/elementor/widgets/recent-products-carousel.php:375
+#: includes/elements/elementor/widgets/recent-products-carousel.php:471
+#: includes/elements/elementor/widgets/recent-products-carousel.php:483
+#: includes/elements/elementor/widgets/recent-products-carousel.php:495
+#: includes/elements/elementor/widgets/recent-products-carousel.php:575
+msgid "On"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:186
+#: includes/elements/elementor/widgets/advanced-recent-products.php:198
+#: includes/elements/elementor/widgets/advanced-recent-products.php:210
+#: includes/elements/elementor/widgets/advanced-recent-products.php:222
+#: includes/elements/elementor/widgets/advanced-recent-products.php:234
+#: includes/elements/elementor/widgets/advanced-recent-products.php:273
+#: includes/elements/elementor/widgets/advanced-recent-products.php:285
+#: includes/elements/elementor/widgets/advanced-recent-products.php:297
+#: includes/elements/elementor/widgets/advanced-recent-products.php:309
+#: includes/elements/elementor/widgets/advanced-recent-products.php:321
+#: includes/elements/elementor/widgets/advanced-recent-products.php:332
+#: includes/elements/elementor/widgets/advanced-recent-products.php:378
+#: includes/elements/elementor/widgets/advanced-recent-products.php:418
+#: includes/elements/elementor/widgets/advanced-recent-products.php:487
+#: includes/elements/elementor/widgets/advanced-recent-products.php:569
+#: includes/elements/elementor/widgets/advanced-recent-products.php:599
+#: includes/elements/elementor/widgets/advanced-recent-products.php:709
+#: includes/elements/elementor/widgets/products-parallax.php:167
+#: includes/elements/elementor/widgets/products-parallax.php:179
+#: includes/elements/elementor/widgets/products-parallax.php:191
+#: includes/elements/elementor/widgets/products-parallax.php:203
+#: includes/elements/elementor/widgets/products-parallax.php:215
+#: includes/elements/elementor/widgets/products-parallax.php:227
+#: includes/elements/elementor/widgets/products-parallax.php:239
+#: includes/elements/elementor/widgets/products-parallax.php:251
+#: includes/elements/elementor/widgets/products-parallax.php:263
+#: includes/elements/elementor/widgets/products-parallax.php:275
+#: includes/elements/elementor/widgets/products-parallax.php:306
+#: includes/elements/elementor/widgets/products-parallax.php:385
+#: includes/elements/elementor/widgets/products-parallax.php:485
+#: includes/elements/elementor/widgets/recent-products-carousel.php:179
+#: includes/elements/elementor/widgets/recent-products-carousel.php:190
+#: includes/elements/elementor/widgets/recent-products-carousel.php:201
+#: includes/elements/elementor/widgets/recent-products-carousel.php:212
+#: includes/elements/elementor/widgets/recent-products-carousel.php:223
+#: includes/elements/elementor/widgets/recent-products-carousel.php:234
+#: includes/elements/elementor/widgets/recent-products-carousel.php:245
+#: includes/elements/elementor/widgets/recent-products-carousel.php:256
+#: includes/elements/elementor/widgets/recent-products-carousel.php:267
+#: includes/elements/elementor/widgets/recent-products-carousel.php:278
+#: includes/elements/elementor/widgets/recent-products-carousel.php:291
+#: includes/elements/elementor/widgets/recent-products-carousel.php:302
+#: includes/elements/elementor/widgets/recent-products-carousel.php:329
+#: includes/elements/elementor/widgets/recent-products-carousel.php:376
+#: includes/elements/elementor/widgets/recent-products-carousel.php:472
+#: includes/elements/elementor/widgets/recent-products-carousel.php:484
+#: includes/elements/elementor/widgets/recent-products-carousel.php:496
+#: includes/elements/elementor/widgets/recent-products-carousel.php:576
+msgid "Off"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:207
+#: includes/elements/elementor/widgets/products-parallax.php:188
+#: includes/elements/elementor/widgets/recent-products-carousel.php:198
+#: includes/elements/products-parallax.php:371
+#: includes/elements/recent-products-carousel.php:277
+msgid "Display add to cart"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:231
+#: includes/elements/elementor/widgets/recent-products-carousel.php:299
+msgid "Display Short Description"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:243
+#: includes/elements/elementor/widgets/recent-products-carousel.php:311
+msgid "Number of description characters"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:270
+#: includes/elements/elementor/widgets/products-parallax.php:224
+#: includes/elements/elementor/widgets/recent-products-carousel.php:231
+#: includes/elements/products-parallax.php:419
+#: includes/elements/recent-products-carousel.php:325
+msgid "Display add to wishlist"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:282
+#: includes/elements/elementor/widgets/products-parallax.php:236
+#: includes/elements/elementor/widgets/recent-products-carousel.php:242
+#: includes/elements/products-parallax.php:433
+#: includes/elements/recent-products-carousel.php:339
+msgid "Display Sale Badge"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:294
+msgid "Display Featured Badge"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:306
+#: includes/elements/elementor/widgets/recent-products-carousel.php:253
+msgid "Display Rating"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:318
+#: includes/elements/elementor/widgets/recent-products-carousel.php:264
+msgid "Display Meta Fields"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:352
+#: includes/elements/elementor/widgets/recent-products-carousel.php:347
+#: includes/general-hooks.php:85
+msgid "Custom"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:360
+#: includes/elements/elementor/widgets/recent-products-carousel.php:358
+msgid "Custom Ratio for images"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:375
+#: includes/elements/elementor/widgets/products-parallax.php:303
+#: includes/elements/elementor/widgets/recent-products-carousel.php:373
+msgid "Preload image"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:387
+#: includes/elements/elementor/widgets/products-parallax.php:315
+#: includes/elements/elementor/widgets/recent-products-carousel.php:385
+msgid "While loading image display"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:402
+#: includes/elements/elementor/widgets/products-parallax.php:330
+#: includes/elements/elementor/widgets/recent-products-carousel.php:400
+msgid "Placeholder color while loading image"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:414
+msgid "Deeplink"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:415
+msgid "Enables the deeplink feature, it updates URL based on page and filter status."
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:426
+msgid "Deeplink slug"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:427
+msgid "Specifies the deeplink slug value in address bar."
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:473
+msgid "Specifies a category that you want to show posts from it. In order to choose the all categories leave the field empty"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:484
+#: includes/elements/elementor/widgets/products-parallax.php:382
+#: includes/elements/elementor/widgets/recent-products-carousel.php:573
+msgid "Exclude products without media"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:566
+#: includes/elements/elementor/widgets/products-parallax.php:482
+msgid "Display filters"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:578
+#: includes/elements/elementor/widgets/products-parallax.php:494
+msgid "Filter By"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:595
+msgid "Show Pagination"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:596
+msgid "Paginates the products"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:617
+msgid "Wrappers"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:625
+msgid "Product Bottom space"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:641
+msgid "Info Wrapper Padding"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:653
+msgid "Meta Wrapper Padding"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:665
+msgid "Description Wrapper Padding"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:677
+msgid "Buttons Wrapper Padding"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:695
+#: includes/elements/elementor/widgets/products-parallax.php:474
+msgid "Filters"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:706
+msgid "Display sortlist"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:730
+msgid "Filter Margin"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:774
+#: includes/elements/elementor/widgets/products-parallax.php:541
+msgid "Filter Button Style"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:837
+#: includes/elements/elementor/widgets/advanced-recent-products.php:922
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1007
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1092
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1177
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1337
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1445
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1552
+#: includes/elements/elementor/widgets/products-parallax.php:725
+#: includes/elements/elementor/widgets/products-parallax.php:829
+#: includes/elements/elementor/widgets/products-parallax.php:933
+#: includes/elements/elementor/widgets/products-parallax.php:1037
+#: includes/elements/elementor/widgets/recent-products-carousel.php:674
+#: includes/elements/elementor/widgets/recent-products-carousel.php:778
+#: includes/elements/elementor/widgets/recent-products-carousel.php:882
+#: includes/elements/elementor/widgets/recent-products-carousel.php:986
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1086
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1171
+msgid "Normal"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:847
+#: includes/elements/elementor/widgets/advanced-recent-products.php:873
+#: includes/elements/elementor/widgets/advanced-recent-products.php:932
+#: includes/elements/elementor/widgets/advanced-recent-products.php:958
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1017
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1043
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1102
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1128
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1187
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1213
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1347
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1373
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1455
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1481
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1577
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1633
+#: includes/elements/elementor/widgets/products-parallax.php:735
+#: includes/elements/elementor/widgets/products-parallax.php:761
+#: includes/elements/elementor/widgets/products-parallax.php:839
+#: includes/elements/elementor/widgets/products-parallax.php:865
+#: includes/elements/elementor/widgets/products-parallax.php:943
+#: includes/elements/elementor/widgets/products-parallax.php:969
+#: includes/elements/elementor/widgets/products-parallax.php:1047
+#: includes/elements/elementor/widgets/products-parallax.php:1073
+#: includes/elements/elementor/widgets/recent-products-carousel.php:684
+#: includes/elements/elementor/widgets/recent-products-carousel.php:710
+#: includes/elements/elementor/widgets/recent-products-carousel.php:788
+#: includes/elements/elementor/widgets/recent-products-carousel.php:814
+#: includes/elements/elementor/widgets/recent-products-carousel.php:892
+#: includes/elements/elementor/widgets/recent-products-carousel.php:918
+#: includes/elements/elementor/widgets/recent-products-carousel.php:996
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1022
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1096
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1122
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1181
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1207
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:106
+msgid "Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:863
+#: includes/elements/elementor/widgets/advanced-recent-products.php:948
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1033
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1118
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1203
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1363
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1471
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1608
+#: includes/elements/elementor/widgets/products-parallax.php:751
+#: includes/elements/elementor/widgets/products-parallax.php:855
+#: includes/elements/elementor/widgets/products-parallax.php:959
+#: includes/elements/elementor/widgets/products-parallax.php:1063
+#: includes/elements/elementor/widgets/recent-products-carousel.php:700
+#: includes/elements/elementor/widgets/recent-products-carousel.php:804
+#: includes/elements/elementor/widgets/recent-products-carousel.php:908
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1012
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1112
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1197
+msgid "Hover"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1079
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1073
+#: includes/general-hooks.php:2957
+msgid "Description"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1164
+#: includes/elements/elementor/widgets/recent-products-carousel.php:973
+#: includes/general-hooks.php:2946
+msgid "Meta Fields"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1243
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1403
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1511
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1052
+msgid "Padding"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1264
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1262
+#: includes/woo-functions.php:69
+msgid "Rating"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1276
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1274
+msgid "Empty Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1287
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1285
+msgid "Fill Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1298
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1296
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:107
+msgid "Size"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1323
+#: includes/general-hooks.php:3131
+msgid "Sales Badge"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1416
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1524
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1560
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1616
+msgid "Background"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1431
+msgid "Featured Badge"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1539
+msgid "Button"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1589
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1645
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/elements/elementor/widgets/advanced-recent-products.php:1666
+msgid "Button Padding"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:54
+#: includes/elements/products-parallax.php:16
+msgid "Products Parallax"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:106
+#: includes/elements/elementor/widgets/recent-products-carousel.php:106
+msgid "All Categories"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:212
+#: includes/elements/elementor/widgets/recent-products-carousel.php:220
+#: includes/elements/products-parallax.php:405
+#: includes/elements/recent-products-carousel.php:311
+msgid "Display share"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:248
+#: includes/elements/products-parallax.php:446
+msgid "Display Colorized Shadow"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:260
+#: includes/elements/products-parallax.php:459
+msgid "Tilt Effect"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:272
+#: includes/elements/elementor/widgets/recent-products-carousel.php:326
+#: includes/elements/products-parallax.php:85
+#: includes/elements/recent-products-carousel.php:99
+msgid "Use Custom Aspect Ratio"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:499
+#: includes/widgets/class-auxshp-wc-widget-price-filter.php:72
+msgid "Filter"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:590
+msgid "Parallax"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:598
+msgid "Wrapper Start Offset"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:618
+msgid "Speed"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:638
+msgid "Easing"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:691
+msgid "Duration"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:791
+#: includes/elements/elementor/widgets/products-parallax.php:895
+#: includes/elements/elementor/widgets/products-parallax.php:999
+#: includes/elements/elementor/widgets/recent-products-carousel.php:740
+#: includes/elements/elementor/widgets/recent-products-carousel.php:844
+#: includes/elements/elementor/widgets/recent-products-carousel.php:948
+msgid "Bottom space"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:1024
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1158
+msgid "Add to cart"
+msgstr ""
+
+#: includes/elements/elementor/widgets/products-parallax.php:1103
+#: includes/elements/elementor/widgets/recent-products-carousel.php:1237
+msgid "Top space"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:54
+msgid "Products Carousel"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:166
+#: includes/elements/recent-products-carousel.php:442
+msgid "Column space"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:167
+#: includes/elements/recent-products-carousel.php:443
+#: includes/general-hooks.php:763
+msgid "Specifies horizontal space between items (pixel)."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:288
+msgid "Display Featured Color"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:417
+#: includes/elements/recent-products-carousel.php:414
+msgid "Carousel"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:425
+#: includes/elements/recent-products-carousel.php:477
+msgid "Navigation control"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:429
+#: includes/elements/recent-products-carousel.php:485
+msgid "Arrows"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:430
+#: includes/elements/recent-products-carousel.php:486
+msgid "Bullets"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:431
+#: includes/elements/recent-products-carousel.php:487
+#: includes/general-hooks.php:1603
+#: includes/general-hooks.php:1978
+msgid "None"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:439
+#: includes/elements/recent-products-carousel.php:519
+msgid "Control Arrow Skin"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:443
+#: includes/general-hooks.php:1479
+msgid "Boxed"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:444
+#: includes/elements/recent-products-carousel.php:527
+msgid "Long Arrow"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:455
+#: includes/elements/recent-products-carousel.php:455
+msgid "Navigation type"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:459
+#: includes/elements/recent-products-carousel.php:463
+msgid "Move per column"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:460
+#: includes/elements/recent-products-carousel.php:464
+msgid "Move per page"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:461
+#: includes/elements/recent-products-carousel.php:465
+msgid "Smooth scroll"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:469
+#: includes/elements/recent-products-carousel.php:539
+msgid "Loop navigation"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:481
+#: includes/elements/recent-products-carousel.php:554
+msgid "Autoplay carousel"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:493
+msgid "Same Height"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:505
+#: includes/elements/recent-products-carousel.php:570
+msgid "Autoplay delay"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:506
+#: includes/elements/recent-products-carousel.php:571
+msgid "Specifies the delay between auto-forwarding in seconds."
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:515
+#: includes/elements/recent-products-carousel.php:499
+msgid "Control Position"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:520
+#: includes/elements/recent-products-carousel.php:507
+msgid "Side"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:560
+msgid "Number of products to show per page"
+msgstr ""
+
+#: includes/elements/elementor/widgets/recent-products-carousel.php:561
+#: includes/elements/products-parallax.php:491
+msgid "Leave it empty to show all items"
+msgstr ""
+
+#: includes/elements/products-parallax.php:19
+msgid "It adds recent products in grid or carousel mode."
+msgstr ""
+
+#: includes/elements/products-parallax.php:42
+#: includes/elements/recent-products-carousel.php:42
+msgid "Recent products title, leave it empty if you don`t need title."
+msgstr ""
+
+#: includes/elements/products-parallax.php:353
+#: includes/elements/products-parallax.php:367
+#: includes/elements/products-parallax.php:384
+#: includes/elements/products-parallax.php:401
+#: includes/elements/products-parallax.php:415
+#: includes/elements/products-parallax.php:429
+#: includes/elements/products-parallax.php:442
+msgid "Info"
+msgstr ""
+
+#: includes/elements/products-parallax.php:490
+msgid "Number of items to show"
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:16
+msgid "Recent Products Carousel"
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:19
+msgid "It adds recent products in carousel mode."
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:406
+msgid "Display items as"
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:423
+msgid "Content layout"
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:424
+msgid "Specifies the style of content for each post column."
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:431
+msgid "Full Content"
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:432
+msgid "Boxed Content"
+msgstr ""
+
+#: includes/elements/recent-products-carousel.php:526
+msgid "boxed"
+msgstr ""
+
+#: includes/general-hooks.php:38
+msgid "Pagination Skin"
+msgstr ""
+
+#: includes/general-hooks.php:39
+msgid "Specifies the default skin for site pagination."
+msgstr ""
+
+#: includes/general-hooks.php:45
+msgid "Round, No Page Border"
+msgstr ""
+
+#: includes/general-hooks.php:49
+msgid "Round, No Border"
+msgstr ""
+
+#: includes/general-hooks.php:53
+msgid "Round, With Border"
+msgstr ""
+
+#: includes/general-hooks.php:57
+msgid "Square, No Page Border"
+msgstr ""
+
+#: includes/general-hooks.php:61
+msgid "Square, No Border"
+msgstr ""
+
+#: includes/general-hooks.php:65
+msgid "Square, With Border"
+msgstr ""
+
+#: includes/general-hooks.php:75
+msgid "Thumbnail aspect ratio"
+msgstr ""
+
+#: includes/general-hooks.php:92
+msgid "Custom aspect ratio"
+msgstr ""
+
+#: includes/general-hooks.php:106
+msgid "Enable Shop Custom Widget Area"
+msgstr ""
+
+#: includes/general-hooks.php:107
+msgid "Enable it to display custom widget area in shop page"
+msgstr ""
+
+#: includes/general-hooks.php:117
+msgid "Modern Sort DropDown Skin"
+msgstr ""
+
+#: includes/general-hooks.php:118
+msgid "Enable it to use modern skin of dropdown in shop page"
+msgstr ""
+
+#: includes/general-hooks.php:128
+msgid "Display Top Content Margin"
+msgstr ""
+
+#: includes/general-hooks.php:129
+msgid "Enable it to display a space between title and content. If you need to start your content from very top of the page, disable it."
+msgstr ""
+
+#: includes/general-hooks.php:139
+msgid "Display Custom Sales Badge"
+msgstr ""
+
+#: includes/general-hooks.php:140
+msgid "Enable it to display the amount of sale with percentage"
+msgstr ""
+
+#: includes/general-hooks.php:150
+msgid "Sales Badge Text"
+msgstr ""
+
+#: includes/general-hooks.php:160
+msgid "Add to Cart Text"
+msgstr ""
+
+#: includes/general-hooks.php:170
+msgid "Add to Cart Link"
+msgstr ""
+
+#: includes/general-hooks.php:178
+#: includes/woo-hooks.php:213
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/general-hooks.php:184
+msgid "Display Custom Result Text"
+msgstr ""
+
+#: includes/general-hooks.php:185
+msgid "Enable it to display the custom result text"
+msgstr ""
+
+#: includes/general-hooks.php:195
+msgid "Result Text"
+msgstr ""
+
+#: includes/general-hooks.php:196
+msgid ""
+"Replace total items with <code>{{TOTAL}}</code></br>\n"
+"                              Replace first items with <code>{{FIRST}}</code></br>\n"
+"                              Replace last items with <code>{{LAST}}</code></br>"
+msgstr ""
+
+#: includes/general-hooks.php:214
+msgid "Display Image Flipper"
+msgstr ""
+
+#: includes/general-hooks.php:215
+msgid "Enable a secondary product thumbnail on product archives."
+msgstr ""
+
+#: includes/general-hooks.php:225
+msgid "Display Product Star Ratings"
+msgstr ""
+
+#: includes/general-hooks.php:226
+msgid "Enable it to display star ratings section in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:236
+msgid "Display Product Excerpt"
+msgstr ""
+
+#: includes/general-hooks.php:237
+#: includes/general-hooks.php:2513
+msgid "Enable it to display excerpt section in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:247
+msgid "Display Product Meta Fields"
+msgstr ""
+
+#: includes/general-hooks.php:248
+msgid "Enable it to display Meta Fields section in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:258
+#: includes/general-hooks.php:2523
+msgid "Character Count"
+msgstr ""
+
+#: includes/general-hooks.php:274
+msgid "Display Product Share"
+msgstr ""
+
+#: includes/general-hooks.php:275
+msgid "Enable it to display Share button in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:285
+msgid "Display Add To Cart"
+msgstr ""
+
+#: includes/general-hooks.php:286
+msgid "Enable it to display Add To Cart button in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:296
+msgid "Display QuickView"
+msgstr ""
+
+#: includes/general-hooks.php:297
+msgid "Enable it to display quickview button in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:307
+msgid "Enable AJAX Add To Cart"
+msgstr ""
+
+#: includes/general-hooks.php:308
+msgid "Enable this option to activate AJAX add to cart buttons in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:325
+msgid "Enable it to display category section in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:335
+msgid "Display Title Bar?"
+msgstr ""
+
+#: includes/general-hooks.php:336
+msgid "Specifies whether to display the title bar at top of product archive page or not."
+msgstr ""
+
+#: includes/general-hooks.php:354
+#: includes/general-hooks.php:438
+msgid "Display Breadcrumb?"
+msgstr ""
+
+#: includes/general-hooks.php:355
+msgid "Specifies whether to display the breadcrumb in title bar of product archive page or not."
+msgstr ""
+
+#: includes/general-hooks.php:377
+msgid "Display Title?"
+msgstr ""
+
+#: includes/general-hooks.php:378
+msgid "Specifies whether to display the title in title bar of product archive page or not."
+msgstr ""
+
+#: includes/general-hooks.php:400
+msgid "Custom Title"
+msgstr ""
+
+#: includes/general-hooks.php:427
+msgid "Disable Woocommerce Page Title"
+msgstr ""
+
+#: includes/general-hooks.php:428
+msgid "Disable the Woocommerce's default header title."
+msgstr ""
+
+#: includes/general-hooks.php:439
+msgid "Display breadcrumb instead of woocommerce default header title."
+msgstr ""
+
+#: includes/general-hooks.php:456
+msgid "Single Product Template"
+msgstr ""
+
+#: includes/general-hooks.php:518
+msgid "Master Slider Required"
+msgstr ""
+
+#: includes/general-hooks.php:519
+msgid "Please install and activate \"Master Slider\" plugin to have a touch-enabled product slider."
+msgstr ""
+
+#: includes/general-hooks.php:536
+#: includes/general-hooks.php:1780
+msgid "Display Breadcrumb"
+msgstr ""
+
+#: includes/general-hooks.php:537
+msgid "Enable this to use breadcrumb in single product"
+msgstr ""
+
+#: includes/general-hooks.php:546
+msgid "Enable Slider Arrow"
+msgstr ""
+
+#: includes/general-hooks.php:547
+msgid "Enable this to use arrow in product slider."
+msgstr ""
+
+#: includes/general-hooks.php:568
+msgid "Auto Hide Arrow"
+msgstr ""
+
+#: includes/general-hooks.php:569
+msgid "Enable this to auto hide arrow in product slider."
+msgstr ""
+
+#: includes/general-hooks.php:595
+msgid "Space Between Images"
+msgstr ""
+
+#: includes/general-hooks.php:596
+msgid "Enable margin bottom space between stack images."
+msgstr ""
+
+#: includes/general-hooks.php:612
+msgid "Thumbnail Direction"
+msgstr ""
+
+#: includes/general-hooks.php:613
+msgid "Display Thumbnail in vertical or horizontal"
+msgstr ""
+
+#: includes/general-hooks.php:631
+msgid "Horizontal"
+msgstr ""
+
+#: includes/general-hooks.php:632
+msgid "Vertical"
+msgstr ""
+
+#: includes/general-hooks.php:638
+msgid "Thumbnail Margin"
+msgstr ""
+
+#: includes/general-hooks.php:639
+msgid "Margin of thumbnails in product slider"
+msgstr ""
+
+#: includes/general-hooks.php:655
+msgid "Thumbnail Width"
+msgstr ""
+
+#: includes/general-hooks.php:656
+msgid "Width of thumbnails in product slider"
+msgstr ""
+
+#: includes/general-hooks.php:672
+msgid "Thumbnail Height"
+msgstr ""
+
+#: includes/general-hooks.php:673
+msgid "Height of thumbnails in product slider"
+msgstr ""
+
+#: includes/general-hooks.php:689
+msgid "Thumbnail Space"
+msgstr ""
+
+#: includes/general-hooks.php:690
+msgid "Space between of thumbnails in product slider"
+msgstr ""
+
+#: includes/general-hooks.php:879
+msgid "Single Product Sidebar Style"
+msgstr ""
+
+#: includes/general-hooks.php:880
+msgid "Specifies style of sidebar on single product."
+msgstr ""
+
+#: includes/general-hooks.php:894
+msgid "Simple"
+msgstr ""
+
+#: includes/general-hooks.php:898
+msgid "Bordered Sidebar"
+msgstr ""
+
+#: includes/general-hooks.php:902
+msgid "Overlap Background"
+msgstr ""
+
+#: includes/general-hooks.php:911
+msgid "Display Next & Previous products"
+msgstr ""
+
+#: includes/general-hooks.php:912
+msgid "Enable it to display links to next and previous products on single product page."
+msgstr ""
+
+#: includes/general-hooks.php:988
+msgid "Share Button Type"
+msgstr ""
+
+#: includes/general-hooks.php:989
+#: includes/general-hooks.php:2753
+msgid "Enable it to display text instead of icon."
+msgstr ""
+
+#: includes/general-hooks.php:995
+#: includes/general-hooks.php:2759
+msgid "Icon"
+msgstr ""
+
+#: includes/general-hooks.php:996
+#: includes/general-hooks.php:2760
+msgid "Text"
+msgstr ""
+
+#: includes/general-hooks.php:1009
+msgid "Share Button Icon"
+msgstr ""
+
+#: includes/general-hooks.php:1030
+#: includes/general-hooks.php:2794
+msgid "Icon Color"
+msgstr ""
+
+#: includes/general-hooks.php:1031
+msgid "Share icon color"
+msgstr ""
+
+#: includes/general-hooks.php:1054
+#: includes/general-hooks.php:2818
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/general-hooks.php:1055
+msgid "Share icon hover color"
+msgstr ""
+
+#: includes/general-hooks.php:1078
+msgid "Share Button Icon Size"
+msgstr ""
+
+#: includes/general-hooks.php:1107
+msgid "Share Button Margin"
+msgstr ""
+
+#: includes/general-hooks.php:1163
+msgid "Display Single Product Meta Fields"
+msgstr ""
+
+#: includes/general-hooks.php:1164
+msgid "Enable it to display Meta Field section in single product."
+msgstr ""
+
+#: includes/general-hooks.php:1175
+msgid "Enable Lightbox In Single Product Page"
+msgstr ""
+
+#: includes/general-hooks.php:1176
+msgid "Enable it to allow users to view image in lightbox."
+msgstr ""
+
+#: includes/general-hooks.php:1191
+msgid "Single Product Featured Color"
+msgstr ""
+
+#: includes/general-hooks.php:1192
+msgid "Specifies featured color for products."
+msgstr ""
+
+#: includes/general-hooks.php:1203
+msgid "Review Avatar Size"
+msgstr ""
+
+#: includes/general-hooks.php:1204
+msgid "The size of avatars in review section"
+msgstr ""
+
+#: includes/general-hooks.php:1213
+msgid "Image Background Color"
+msgstr ""
+
+#: includes/general-hooks.php:1214
+msgid "Background color of product image"
+msgstr ""
+
+#: includes/general-hooks.php:1225
+msgid "Thumbnails Background Color"
+msgstr ""
+
+#: includes/general-hooks.php:1226
+msgid "Product Thumbs Background Color"
+msgstr ""
+
+#: includes/general-hooks.php:1241
+#: includes/general-hooks.php:3142
+msgid "Product Title"
+msgstr ""
+
+#: includes/general-hooks.php:1242
+msgid "Preview a Single Product Page"
+msgstr ""
+
+#: includes/general-hooks.php:1247
+msgid "Display Title Bar Section"
+msgstr ""
+
+#: includes/general-hooks.php:1248
+msgid "Enable it to show the title section."
+msgstr ""
+
+#: includes/general-hooks.php:1264
+msgid "Layout presets"
+msgstr ""
+
+#: includes/general-hooks.php:1306
+msgid "Title bar with light overlay which is aligned center"
+msgstr ""
+
+#: includes/general-hooks.php:1324
+msgid "Fullscreen title bar with light overlay on background"
+msgstr ""
+
+#: includes/general-hooks.php:1342
+msgid "Fullscreen title bar with dark overlay on background"
+msgstr ""
+
+#: includes/general-hooks.php:1360
+msgid "Fullscreen title bar with border around the title"
+msgstr ""
+
+#: includes/general-hooks.php:1378
+msgid "Fullscreen title bar with dark box around the title"
+msgstr ""
+
+#: includes/general-hooks.php:1396
+msgid "Title aligned left with dark overlay on background"
+msgstr ""
+
+#: includes/general-hooks.php:1414
+msgid "Tile overlaps the title area section and is aligned center"
+msgstr ""
+
+#: includes/general-hooks.php:1435
+msgid "Enable advanced setting"
+msgstr ""
+
+#: includes/general-hooks.php:1436
+msgid "Enable it to customize preset layouts."
+msgstr ""
+
+#: includes/general-hooks.php:1459
+msgid "Content Width"
+msgstr ""
+
+#: includes/general-hooks.php:1483
+msgid "Full Width Content with Space on Sides"
+msgstr ""
+
+#: includes/general-hooks.php:1487
+msgid "Full Width Content"
+msgstr ""
+
+#: includes/general-hooks.php:1496
+msgid "Title Section Height"
+msgstr ""
+
+#: includes/general-hooks.php:1523
+msgid "Auto Height"
+msgstr ""
+
+#: includes/general-hooks.php:1524
+msgid "Full Height"
+msgstr ""
+
+#: includes/general-hooks.php:1529
+msgid "Vertical Position"
+msgstr ""
+
+#: includes/general-hooks.php:1530
+msgid "Specifies vertical alignment of title and subtitle."
+msgstr ""
+
+#: includes/general-hooks.php:1531
+msgid "Note: Parallax feature in not available for \"Bottom Overlap\" vertical mode."
+msgstr ""
+
+#: includes/general-hooks.php:1557
+msgid "Top"
+msgstr ""
+
+#: includes/general-hooks.php:1558
+msgid "Middle"
+msgstr ""
+
+#: includes/general-hooks.php:1559
+msgid "Bottom"
+msgstr ""
+
+#: includes/general-hooks.php:1560
+msgid "Bottom Overlap"
+msgstr ""
+
+#: includes/general-hooks.php:1565
+msgid "Scroll Down Arrow"
+msgstr ""
+
+#: includes/general-hooks.php:1566
+msgid "This option only applies if section height is \"Full Height\"."
+msgstr ""
+
+#: includes/general-hooks.php:1607
+msgid "Round"
+msgstr ""
+
+#: includes/general-hooks.php:1614
+msgid "Display Titles"
+msgstr ""
+
+#: includes/general-hooks.php:1615
+msgid "Enable it to display title/subtitle in title section."
+msgstr ""
+
+#: includes/general-hooks.php:1643
+msgid "Border for Heading"
+msgstr ""
+
+#: includes/general-hooks.php:1644
+msgid "Enable it to display a border around the title and subtitle area."
+msgstr ""
+
+#: includes/general-hooks.php:1677
+msgid "Boxed Title"
+msgstr ""
+
+#: includes/general-hooks.php:1678
+msgid "Enable it to wrap the title and subtitle in a box with background color."
+msgstr ""
+
+#: includes/general-hooks.php:1711
+msgid "Title Box Custom Color"
+msgstr ""
+
+#: includes/general-hooks.php:1712
+msgid "Specifies a custom background color for the box around the title and subtitle."
+msgstr ""
+
+#: includes/general-hooks.php:1751
+msgid "Display Post Meta"
+msgstr ""
+
+#: includes/general-hooks.php:1752
+msgid "Enable it to display post meta information on title section."
+msgstr ""
+
+#: includes/general-hooks.php:1781
+msgid "Enable it to display breadcrumb on title section."
+msgstr ""
+
+#: includes/general-hooks.php:1809
+msgid "Border for Breadcrumb"
+msgstr ""
+
+#: includes/general-hooks.php:1810
+msgid "Enable it to display border around breadcrumb."
+msgstr ""
+
+#: includes/general-hooks.php:1843
+msgid "Breadcrumb Separator Icon"
+msgstr ""
+
+#: includes/general-hooks.php:1877
+msgid "Text Align"
+msgstr ""
+
+#: includes/general-hooks.php:1920
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/general-hooks.php:1921
+msgid "The color that overlay on the background. Please note that color should have transparency."
+msgstr ""
+
+#: includes/general-hooks.php:1950
+msgid "Overlay Pattern"
+msgstr ""
+
+#: includes/general-hooks.php:1982
+msgid "Hash"
+msgstr ""
+
+#: includes/general-hooks.php:1989
+msgid "Overlay Pattern Opacity"
+msgstr ""
+
+#: includes/general-hooks.php:2025
+msgid "Color Mode"
+msgstr ""
+
+#: includes/general-hooks.php:2052
+msgid "Dark"
+msgstr ""
+
+#: includes/general-hooks.php:2053
+msgid "Light"
+msgstr ""
+
+#: includes/general-hooks.php:2060
+msgid "Enable Title Background"
+msgstr ""
+
+#: includes/general-hooks.php:2061
+msgid "Enable it to display custom background for title section."
+msgstr ""
+
+#: includes/general-hooks.php:2089
+msgid "Enable Parallax Effect"
+msgstr ""
+
+#: includes/general-hooks.php:2090
+msgid "Enable it to have parallax background effect on this section."
+msgstr ""
+
+#: includes/general-hooks.php:2091
+msgid "Note: Parallax feature in not available for \"Bottom Overlap\" mode for \"Vertical Position\" option."
+msgstr ""
+
+#: includes/general-hooks.php:2124
+msgid "Background Color"
+msgstr ""
+
+#: includes/general-hooks.php:2125
+msgid "Specifies a background color for title bar."
+msgstr ""
+
+#: includes/general-hooks.php:2160
+msgid "Background Size"
+msgstr ""
+
+#: includes/general-hooks.php:2161
+msgid "Specifies the background size."
+msgstr ""
+
+#: includes/general-hooks.php:2193
+msgid "Auto"
+msgstr ""
+
+#: includes/general-hooks.php:2197
+msgid "Contain"
+msgstr ""
+
+#: includes/general-hooks.php:2201
+msgid "Cover"
+msgstr ""
+
+#: includes/general-hooks.php:2209
+msgid "Background Image"
+msgstr ""
+
+#: includes/general-hooks.php:2210
+msgid "Specifies a background image for title bar."
+msgstr ""
+
+#: includes/general-hooks.php:2244
+msgid "Background Video MP4"
+msgstr ""
+
+#: includes/general-hooks.php:2245
+#: includes/general-hooks.php:2280
+#: includes/general-hooks.php:2315
+msgid "You can upload custom video for title background</br>Note: if you set custom image, default image backgrounds will be ignored."
+msgstr ""
+
+#: includes/general-hooks.php:2279
+msgid "Background Video Ogg"
+msgstr ""
+
+#: includes/general-hooks.php:2314
+msgid "Background Video WebM"
+msgstr ""
+
+#: includes/general-hooks.php:2355
+msgid "Setting for Related Products Section in Single Page"
+msgstr ""
+
+#: includes/general-hooks.php:2372
+msgid "Specifies the label of related items section."
+msgstr ""
+
+#: includes/general-hooks.php:2389
+msgid "Label Typography"
+msgstr ""
+
+#: includes/general-hooks.php:2512
+msgid "Display Product Exceprt"
+msgstr ""
+
+#: includes/general-hooks.php:2629
+msgid "Related Title"
+msgstr ""
+
+#: includes/general-hooks.php:2640
+#: includes/general-hooks.php:3153
+msgid "Product Price"
+msgstr ""
+
+#: includes/general-hooks.php:2651
+#: includes/general-hooks.php:3164
+msgid "Product Regular Price"
+msgstr ""
+
+#: includes/general-hooks.php:2662
+#: includes/general-hooks.php:3175
+msgid "Product Excerpt"
+msgstr ""
+
+#: includes/general-hooks.php:2673
+#: includes/general-hooks.php:3208
+msgid "Product Button"
+msgstr ""
+
+#: includes/general-hooks.php:2684
+#: includes/general-hooks.php:3219
+msgid "Product Button Background"
+msgstr ""
+
+#: includes/general-hooks.php:2685
+#: includes/general-hooks.php:3220
+msgid "Specifies the background color for button"
+msgstr ""
+
+#: includes/general-hooks.php:2705
+msgid "Display Wishlist"
+msgstr ""
+
+#: includes/general-hooks.php:2706
+msgid "Enable it to display wishlist button in archive page."
+msgstr ""
+
+#: includes/general-hooks.php:2731
+msgid "Use TI Wishlist Plugin"
+msgstr ""
+
+#: includes/general-hooks.php:2732
+msgid "Enable it to use TI Wishlist plugin instead of built in wishlist."
+msgstr ""
+
+#: includes/general-hooks.php:2746
+msgid "TI Wishlist Plugin"
+msgstr ""
+
+#: includes/general-hooks.php:2747
+msgid "TI Wishlist plugin has been integrated in phlox theme. To use this plugin instead of built in wishlist install and activate the plugin through wordpress plugin installer."
+msgstr ""
+
+#: includes/general-hooks.php:2752
+msgid "Wishlist Type"
+msgstr ""
+
+#: includes/general-hooks.php:2773
+msgid "Wishlist Button Icon"
+msgstr ""
+
+#: includes/general-hooks.php:2795
+msgid "Like icon color"
+msgstr ""
+
+#: includes/general-hooks.php:2819
+msgid "Like icon hover color"
+msgstr ""
+
+#: includes/general-hooks.php:2842
+msgid "Wishlist Button Icon Size"
+msgstr ""
+
+#: includes/general-hooks.php:2871
+msgid "Wishlist Button Margin"
+msgstr ""
+
+#: includes/general-hooks.php:2897
+msgid "Single Product Appearance"
+msgstr ""
+
+#: includes/general-hooks.php:2898
+msgid "Setting for Appearances in Single Page"
+msgstr ""
+
+#: includes/general-hooks.php:2924
+msgid "Regular Price"
+msgstr ""
+
+#: includes/general-hooks.php:2935
+msgid "Star Rating Text"
+msgstr ""
+
+#: includes/general-hooks.php:2968
+msgid "Add to Cart Button"
+msgstr ""
+
+#: includes/general-hooks.php:2979
+msgid "Category Label"
+msgstr ""
+
+#: includes/general-hooks.php:2990
+msgid "Category Terms"
+msgstr ""
+
+#: includes/general-hooks.php:3001
+msgid "Tabs Title"
+msgstr ""
+
+#: includes/general-hooks.php:3012
+msgid "Tabs Content"
+msgstr ""
+
+#: includes/general-hooks.php:3023
+msgid "Review Title"
+msgstr ""
+
+#: includes/general-hooks.php:3034
+msgid "Review Author"
+msgstr ""
+
+#: includes/general-hooks.php:3045
+msgid "Review Date"
+msgstr ""
+
+#: includes/general-hooks.php:3056
+msgid "Review Content"
+msgstr ""
+
+#: includes/general-hooks.php:3067
+msgid "Review Reply Title"
+msgstr ""
+
+#: includes/general-hooks.php:3078
+msgid "Review Comment Notes"
+msgstr ""
+
+#: includes/general-hooks.php:3093
+msgid "Shop Page Appearance"
+msgstr ""
+
+#: includes/general-hooks.php:3094
+msgid "Setting for Appearances in Shop Page"
+msgstr ""
+
+#: includes/general-hooks.php:3109
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/general-hooks.php:3120
+msgid "Result"
+msgstr ""
+
+#: includes/general-hooks.php:3186
+msgid "Product Meta Fields"
+msgstr ""
+
+#: includes/general-hooks.php:3197
+msgid "Pagination"
+msgstr ""
+
+#: includes/general-hooks.php:3291
+#: includes/general-hooks.php:3295
+msgid "View cart"
+msgstr ""
+
+#: includes/general-hooks.php:3308
+#: includes/general-hooks.php:3312
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: includes/general-hooks.php:3343
+msgid "Name"
+msgstr ""
+
+#: includes/general-hooks.php:3349
+msgid "Email"
+msgstr ""
+
+#: includes/general-hooks.php:3355
+msgid "Your review"
+msgstr ""
+
+#: includes/general-hooks.php:3366
+msgid "Your rating"
+msgstr ""
+
+#: includes/general-hooks.php:3367
+msgid "Rate&hellip;"
+msgstr ""
+
+#: includes/general-hooks.php:3368
+msgid "Perfect"
+msgstr ""
+
+#: includes/general-hooks.php:3369
+msgid "Good"
+msgstr ""
+
+#: includes/general-hooks.php:3370
+msgid "Average"
+msgstr ""
+
+#: includes/general-hooks.php:3371
+msgid "Not that bad"
+msgstr ""
+
+#: includes/general-hooks.php:3372
+msgid "Very poor"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:21
+msgid "Display a list of attributes to filter products in your store."
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:23
+msgid "Filter Products by Attribute"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:78
+msgid "Attribute"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:84
+msgid "Display type"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:86
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:104
+msgid "List"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:87
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:105
+msgid "Dropdown"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:93
+msgid "Query type"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:95
+msgid "AND"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:96
+msgid "OR"
+msgstr ""
+
+#. translators: %s: taxonomy name
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:246
+msgid "Any %s"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:284
+msgid "Apply"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-layered-nav.php:318
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-price-filter.php:70
+msgid "Min price"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-price-filter.php:71
+msgid "Max price"
+msgstr ""
+
+#: includes/widgets/class-auxshp-wc-widget-recent-reviews.php:59
+msgid "by %s"
+msgstr ""
+
+#: includes/woo-functions.php:68
+msgid "Popularity"
+msgstr ""
+
+#: includes/woo-functions.php:70
+msgid "Newness"
+msgstr ""
+
+#: includes/woo-functions.php:71
+msgid "Low Price"
+msgstr ""
+
+#: includes/woo-functions.php:72
+msgid "High Price"
+msgstr ""
+
+#: includes/woo-functions.php:338
+msgid "Previous Product"
+msgstr ""
+
+#: includes/woo-functions.php:339
+msgid "Next Product"
+msgstr ""
+
+#: includes/woo-functions.php:360
+msgid "Proceed to checkout"
+msgstr ""
+
+#: includes/woo-functions.php:437
+msgid "Filter "
+msgstr ""
+
+#: includes/woo-functions.php:504
+msgid "Number of show in page"
+msgstr ""
+
+#: includes/woo-functions.php:564
+msgid "Shop Page %s Widget Area"
+msgstr ""
+
+#: includes/woo-functions.php:566
+msgid "The %s column in shop widget area."
+msgstr ""
+
+#: includes/woo-functions.php:604
+msgid "Product Custom Fields"
+msgstr ""
+
+#: includes/woo-hooks.php:85
+msgid "Sale!"
+msgstr ""
+
+#: public/includes/classes/class-auxshp-frontend-assets.php:27
+msgid "This is a required field"
+msgstr ""
+
+#: public/includes/classes/class-auxshp-frontend-assets.php:28
+msgid "Zipcode must be digits"
+msgstr ""
+
+#: public/includes/classes/class-auxshp-frontend-assets.php:29
+msgid "Enter a valid phone number"
+msgstr ""
+
+#: public/includes/classes/class-auxshp-frontend-assets.php:30
+msgid "Enter a valid email address"
+msgstr ""
+
+#: public/includes/classes/class-auxshp-frontend-assets.php:31
+msgid "Add To Wishlist"
+msgstr ""
+
+#: public/includes/classes/class-auxshp-frontend-assets.php:32
+msgid "Remove From Wishlist"
+msgstr ""
+
+#: public/templates/elements/template-advanced-recent-product.php:202
+msgid "Hot"
+msgstr ""
+
+#: public/templates/elements/template-quicklook.php:88
+msgid "More Information"
+msgstr ""
+
+#. Translators: $s shipping destination.
+#: public/templates/woocommerce/cart/cart-shipping.php:58
+msgid "Shipping to %s."
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-shipping.php:59
+msgid "Change address"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-shipping.php:61
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-shipping.php:69
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-shipping.php:71
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-shipping.php:74
+msgid "There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#. Translators: $s shipping destination.
+#: public/templates/woocommerce/cart/cart-shipping.php:88
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-shipping.php:92
+msgid "Enter a different address"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-totals.php:32
+msgid "Cart Totals"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-totals.php:39
+#: public/templates/woocommerce/cart/cart-totals.php:40
+#: public/templates/woocommerce/cart/cart.php:44
+#: public/templates/woocommerce/cart/cart.php:151
+#: public/templates/woocommerce/checkout/review-order.php:32
+#: public/templates/woocommerce/checkout/review-order.php:76
+msgid "Subtotal"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-totals.php:61
+#: public/templates/woocommerce/cart/cart-totals.php:62
+msgid "Shipping"
+msgstr ""
+
+#. translators: %s location.
+#: public/templates/woocommerce/cart/cart-totals.php:81
+msgid "(estimated for %s)"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart-totals.php:107
+#: public/templates/woocommerce/cart/cart-totals.php:108
+#: public/templates/woocommerce/checkout/review-order.php:123
+msgid "Total"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart.php:33
+msgid "Shopping bag"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: public/templates/woocommerce/cart/cart.php:43
+#: public/templates/woocommerce/cart/cart.php:133
+#: public/templates/woocommerce/global/quantity-input.php:21
+msgid "Quantity"
+msgstr ""
+
+#. translators: %s is the product name
+#: public/templates/woocommerce/cart/cart.php:75
+#: public/templates/woocommerce/cart/mini-cart.php:53
+msgid "Remove %s from cart"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart.php:122
+msgid "Available on backorder"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart.php:174
+msgid "Coupon code"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart.php:175
+msgid "Apply coupon"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cart.php:182
+msgid "Update cart"
+msgstr ""
+
+#: public/templates/woocommerce/cart/cross-sells.php:24
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: public/templates/woocommerce/cart/mini-cart.php:107
+msgid "No products in the cart."
+msgstr ""
+
+#: public/templates/woocommerce/cart/shipping-calculator.php:32
+msgid "Calculate shipping"
+msgstr ""
+
+#: public/templates/woocommerce/cart/shipping-calculator.php:39
+msgid "Select a country / region&hellip;"
+msgstr ""
+
+#: public/templates/woocommerce/cart/shipping-calculator.php:58
+#: public/templates/woocommerce/cart/shipping-calculator.php:65
+#: public/templates/woocommerce/cart/shipping-calculator.php:79
+msgid "State / County"
+msgstr ""
+
+#: public/templates/woocommerce/cart/shipping-calculator.php:66
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: public/templates/woocommerce/cart/shipping-calculator.php:89
+msgid "City"
+msgstr ""
+
+#: public/templates/woocommerce/cart/shipping-calculator.php:97
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: public/templates/woocommerce/cart/shipping-calculator.php:102
+msgid "Update totals"
+msgstr ""
+
+#: public/templates/woocommerce/checkout/form-checkout.php:32
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: public/templates/woocommerce/checkout/form-checkout.php:68
+msgid "Your order"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: public/templates/woocommerce/global/quantity-input.php:21
+msgid "%s quantity"
+msgstr ""
+
+#: public/templates/woocommerce/global/quantity-input.php:34
+msgid "Product quantity"
+msgstr ""
+
+#: public/templates/woocommerce/loop/orderby.php:38
+msgid "Sort By:"
+msgstr ""
+
+#: public/templates/woocommerce/loop/result-count.php:43
+msgid "Showing the single result"
+msgstr ""
+
+#. translators: %d: total results
+#: public/templates/woocommerce/loop/result-count.php:46
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: public/templates/woocommerce/loop/result-count.php:51
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/templates/woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: public/templates/woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr ""
+
+#: public/templates/woocommerce/single-product/meta.php:41
+msgid "SKU"
+msgstr ""
+
+#: public/templates/woocommerce/single-product/meta.php:42
+msgid "N/A"
+msgstr ""
+
+#: public/templates/woocommerce/single-product/share.php:37
+msgid "Share"
+msgstr ""
+
+#: public/templates/woocommerce/single-product/up-sells.php:34
+msgid "You may also like&hellip;"
+msgstr ""
